@@ -303,14 +303,14 @@ body {
 .textbook-fill-visual .sheet-content{min-height:224mm;align-content:space-between}.textbook-fill-visual .figure-medium{max-height:205px}.textbook-fill-visual .figure-box{padding:8px}
 
 /* Page-specific adjustments are keyed by the visible local page number, not source file id. */
-main:has(.page-number[aria-label="עמוד 17"]) .draw-box{height:150px}
-main:has(.page-number[aria-label="עמוד 17"]) .answer-line{height:2.1em}
-main:has(.page-number[aria-label="עמוד 36"]) .mist-card{min-height:122px;padding:12px}
-main:has(.page-number[aria-label="עמוד 36"]) .answer-line{height:2.7em}
-main:has(.page-number[aria-label="עמוד 36"]) .q-card{padding-block:14px}
-main:has(.page-number[aria-label="עמוד 39"]) .work-table td{height:46px}
-main:has(.page-number[aria-label="עמוד 39"]) .formula-space{min-height:68px}
-main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
+main[data-layout="w7"] .draw-box{height:150px}
+main[data-layout="w7"] .answer-line{height:2.1em}
+main[data-layout="w13"] .mist-card{min-height:122px;padding:12px}
+main[data-layout="w13"] .answer-line{height:2.7em}
+main[data-layout="w13"] .q-card{padding-block:14px}
+main[data-layout="w15"] .work-table td{height:46px}
+main[data-layout="w15"] .formula-space{min-height:68px}
+main[data-layout="w15"] .answer-line{height:2.1em}
 
 @media print{.textbook-fill .sheet-content,.textbook-fill-visual .sheet-content{min-height:224mm}}
 
@@ -325,3 +325,11 @@ body { background:#fff; }
 .a4-page { margin:0; box-shadow:none; page-break-after:always; break-after:page; }
 .a4-page:last-child { page-break-after:auto; break-after:auto; }
 .sheet-footer { display:none !important; }
+
+/* ---- presentation contract (RULES.md §4): only pages are numbered; each question opens with a large bullet,
+        each sub-part with a small one; curriculum-source questions carry the curriculum heading ---- */
+.q-card h3::after{display:none}
+.q-card h3 .q-bullet{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 3px var(--brand-soft);margin-inline-end:8px;vertical-align:.08em}
+.sub-bullet{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--brand);margin-inline-end:6px;vertical-align:.16em}
+.curriculum-heading{display:inline-flex;align-items:center;gap:7px;margin:0 0 8px;padding:4px 12px;border-radius:999px;background:var(--brand-soft);border:1px solid color-mix(in srgb,var(--brand) 35%,transparent);color:var(--brand);font-weight:800;font-size:12.5px}
+main.a4-page .q-card h3{padding-left:11px}

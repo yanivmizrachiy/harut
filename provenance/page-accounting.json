@@ -1,0 +1,386 @@
+{
+ "summary": {
+  "phase1Commit": "yanivmizrachiy/harut@f37f8ec",
+  "phase1Pages": 46,
+  "finalPages": 46,
+  "statusCounts": {
+   "preserved": 7,
+   "moved": 39
+  },
+  "addedPages": 0,
+  "equation": "46 phase-1 pages − 0 replaced/merged/retired + 0 added = 46 final pages"
+ },
+ "phase1Pages": [
+  {
+   "phase1Page": 1,
+   "layout": "w17",
+   "finalPage": 1,
+   "status": "preserved",
+   "stage": "מכירים את החרוט",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 2,
+   "layout": "w1",
+   "finalPage": 2,
+   "status": "preserved",
+   "stage": "מכירים את החרוט",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 3,
+   "layout": "w19",
+   "finalPage": 3,
+   "status": "preserved",
+   "stage": "מכירים את החרוט",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 4,
+   "layout": "w3",
+   "finalPage": 36,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 5,
+   "layout": "w20",
+   "finalPage": 4,
+   "status": "moved",
+   "stage": "רדיוס, גובה, יוצר וחתך צירי",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס, גובה, יוצר וחתך צירי'"
+  },
+  {
+   "phase1Page": 6,
+   "layout": "v-anis-basics",
+   "finalPage": 8,
+   "status": "moved",
+   "stage": "רדיוס, גובה, יוצר וחתך צירי",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס, גובה, יוצר וחתך צירי'"
+  },
+  {
+   "phase1Page": 7,
+   "layout": "w4",
+   "finalPage": 37,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 8,
+   "layout": "w2",
+   "finalPage": 33,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 9,
+   "layout": "v-jerusalem-cone-vision",
+   "finalPage": 40,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "openQualityGap": "OPEN_QUALITY_GAP: original high-resolution artwork unavailable",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 10,
+   "layout": "w5",
+   "finalPage": 38,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 11,
+   "layout": "v-puzzle-1-question",
+   "finalPage": 15,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 12,
+   "layout": "w21",
+   "finalPage": 9,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 13,
+   "layout": "w22",
+   "finalPage": 10,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 14,
+   "layout": "w6",
+   "finalPage": 13,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 15,
+   "layout": "w23",
+   "finalPage": 18,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 16,
+   "layout": "v-cone-in-my-head",
+   "finalPage": 22,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 17,
+   "layout": "w7",
+   "finalPage": 14,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 18,
+   "layout": "w24",
+   "finalPage": 5,
+   "status": "moved",
+   "stage": "רדיוס, גובה, יוצר וחתך צירי",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס, גובה, יוצר וחתך צירי'"
+  },
+  {
+   "phase1Page": 19,
+   "layout": "w25",
+   "finalPage": 6,
+   "status": "moved",
+   "stage": "רדיוס, גובה, יוצר וחתך צירי",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס, גובה, יוצר וחתך צירי'"
+  },
+  {
+   "phase1Page": 20,
+   "layout": "w14",
+   "finalPage": 39,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 21,
+   "layout": "w26",
+   "finalPage": 23,
+   "status": "moved",
+   "stage": "משפט פיתגורס בחרוט",
+   "reason": "pedagogical order (RULES §6): stage 'משפט פיתגורס בחרוט'"
+  },
+  {
+   "phase1Page": 22,
+   "layout": "v-world-of-cones",
+   "finalPage": 27,
+   "status": "moved",
+   "stage": "משפט פיתגורס בחרוט",
+   "openQualityGap": "OPEN_QUALITY_GAP: original high-resolution artwork unavailable",
+   "reason": "pedagogical order (RULES §6): stage 'משפט פיתגורס בחרוט'"
+  },
+  {
+   "phase1Page": 23,
+   "layout": "w27",
+   "finalPage": 24,
+   "status": "moved",
+   "stage": "משפט פיתגורס בחרוט",
+   "reason": "pedagogical order (RULES §6): stage 'משפט פיתגורס בחרוט'"
+  },
+  {
+   "phase1Page": 24,
+   "layout": "w28",
+   "finalPage": 25,
+   "status": "moved",
+   "stage": "משפט פיתגורס בחרוט",
+   "reason": "pedagogical order (RULES §6): stage 'משפט פיתגורס בחרוט'"
+  },
+  {
+   "phase1Page": 25,
+   "layout": "w9",
+   "finalPage": 30,
+   "status": "moved",
+   "stage": "משימות רב־שלביות: פיתגורס, שטח חתך ונפח",
+   "reason": "pedagogical order (RULES §6): stage 'משימות רב־שלביות: פיתגורס, שטח חתך ונפח'"
+  },
+  {
+   "phase1Page": 26,
+   "layout": "w29",
+   "finalPage": 20,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 27,
+   "layout": "w30",
+   "finalPage": 21,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 28,
+   "layout": "w31",
+   "finalPage": 11,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 29,
+   "layout": "v-puzzle-2-question",
+   "finalPage": 32,
+   "status": "moved",
+   "stage": "משימות רב־שלביות: פיתגורס, שטח חתך ונפח",
+   "reason": "pedagogical order (RULES §6): stage 'משימות רב־שלביות: פיתגורס, שטח חתך ונפח'"
+  },
+  {
+   "phase1Page": 30,
+   "layout": "w32",
+   "finalPage": 29,
+   "status": "moved",
+   "stage": "משימות רב־שלביות: פיתגורס, שטח חתך ונפח",
+   "reason": "pedagogical order (RULES §6): stage 'משימות רב־שלביות: פיתגורס, שטח חתך ונפח'"
+  },
+  {
+   "phase1Page": 31,
+   "layout": "w33",
+   "finalPage": 31,
+   "status": "preserved",
+   "stage": "משימות רב־שלביות: פיתגורס, שטח חתך ונפח",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 32,
+   "layout": "w34",
+   "finalPage": 28,
+   "status": "moved",
+   "stage": "משימות רב־שלביות: פיתגורס, שטח חתך ונפח",
+   "reason": "pedagogical order (RULES §6): stage 'משימות רב־שלביות: פיתגורס, שטח חתך ונפח'"
+  },
+  {
+   "phase1Page": 33,
+   "layout": "w8",
+   "finalPage": 42,
+   "status": "moved",
+   "stage": "משימות מסכמות ואינטגרטיביות",
+   "reason": "pedagogical order (RULES §6): stage 'משימות מסכמות ואינטגרטיביות'"
+  },
+  {
+   "phase1Page": 34,
+   "layout": "w10",
+   "finalPage": 17,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 35,
+   "layout": "w35",
+   "finalPage": 16,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 36,
+   "layout": "w13",
+   "finalPage": 12,
+   "status": "moved",
+   "stage": "נפח החרוט: נוסחה, חישוב והשוואות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח החרוט: נוסחה, חישוב והשוואות'"
+  },
+  {
+   "phase1Page": 37,
+   "layout": "w36",
+   "finalPage": 19,
+   "status": "moved",
+   "stage": "נפח: עבודה לאחור, ניתוח טעויות והמרת מידות",
+   "reason": "pedagogical order (RULES §6): stage 'נפח: עבודה לאחור, ניתוח טעויות והמרת מידות'"
+  },
+  {
+   "phase1Page": 38,
+   "layout": "w11",
+   "finalPage": 34,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 39,
+   "layout": "w15",
+   "finalPage": 35,
+   "status": "moved",
+   "stage": "העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה (מחוץ לתוכנית הרשמית): פריסה, מבטים וחתכים'"
+  },
+  {
+   "phase1Page": 40,
+   "layout": "w37",
+   "finalPage": 26,
+   "status": "moved",
+   "stage": "משפט פיתגורס בחרוט",
+   "reason": "pedagogical order (RULES §6): stage 'משפט פיתגורס בחרוט'"
+  },
+  {
+   "phase1Page": 41,
+   "layout": "w12",
+   "finalPage": 41,
+   "status": "preserved",
+   "stage": "משימות מסכמות ואינטגרטיביות",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 42,
+   "layout": "w38",
+   "finalPage": 43,
+   "status": "moved",
+   "stage": "משימות מסכמות ואינטגרטיביות",
+   "reason": "pedagogical order (RULES §6): stage 'משימות מסכמות ואינטגרטיביות'"
+  },
+  {
+   "phase1Page": 43,
+   "layout": "w16",
+   "finalPage": 44,
+   "status": "moved",
+   "stage": "משימות מסכמות ואינטגרטיביות",
+   "reason": "pedagogical order (RULES §6): stage 'משימות מסכמות ואינטגרטיביות'"
+  },
+  {
+   "phase1Page": 44,
+   "layout": "w18",
+   "finalPage": 7,
+   "status": "moved",
+   "stage": "רדיוס, גובה, יוצר וחתך צירי",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס, גובה, יוצר וחתך צירי'"
+  },
+  {
+   "phase1Page": 45,
+   "layout": "v-puzzle-1-answer",
+   "finalPage": 45,
+   "status": "preserved",
+   "stage": "תשובות לחידות התמונה",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 46,
+   "layout": "v-puzzle-2-answer",
+   "finalPage": 46,
+   "status": "preserved",
+   "stage": "תשובות לחידות התמונה",
+   "reason": "same page"
+  }
+ ],
+ "addedPages": []
+}

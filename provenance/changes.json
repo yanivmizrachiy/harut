@@ -1,0 +1,1200 @@
+{
+ "count": 123,
+ "changes": [
+  {
+   "layout": null,
+   "qid": "moe8-p17-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'קודקוד הרוט' → 'קודקוד החרוט' (missing ח, p17)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:harut"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p17-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'אפשרות א ':להגדיל' / 'אפשרות ב ':להגדיל' → 'אפשרות א': להגדיל' / 'אפשרות ב': להגדיל' (the apostrophe and colon were displaced by RTL typesetting, p18)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:harut"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p17-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "Whitespace only: 'חרוט .' → 'חרוט.', 'הסבירו .' → 'הסבירו.', 'העליונה  עד' and 'סמ\"ק  גלידה' double spaces → single space",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:harut"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p17-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "Typography only: the abbreviations ס\"מ / סמ\"ק are set with gershayim (ס״מ, סמ״ק) as everywhere else in harut. Quotation marks stay ASCII \". Non-breaking spaces were added between 6/10 and ס״מ in the data list.",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:harut"
+  },
+  {
+   "layout": "w28",
+   "finalPage": 25,
+   "type": "fix-figure",
+   "qid": "w28.1",
+   "before": "SVG labels: '12 ס״מ' at x=190,y=86 sat on the left slant; '13 ס״מ' at x=275,y=86 sat on the right slant; 'רדיוס = ?' at x=250,y=132 sat on the height line and right-angle mark",
+   "after": "'12 ס״מ' at x=204,y=100 (beside the height line), '13 ס״מ' at x=318,y=78 (outside the slant), 'רדיוס = ?' at x=290,y=134 (above the radius segment), all with a white halo",
+   "reason": "The labels overlapped the lines, so it was unclear which one was height and which was slant",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w28",
+   "finalPage": 25,
+   "type": "fix-wording",
+   "qid": "w28.3",
+   "before": "רדיוס 8, גובה 6, יוצר 9",
+   "after": "רדיוס 8 ס״מ, גובה 6 ס״מ, יוצר 9 ס״מ",
+   "reason": "The data had no units (the answer blank is in ס״מ). Math checked: 64+36=100, so it is not possible and the slant should be 10. Per the dedupe decision, 24:2 stays and page 40 changes.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w9",
+   "finalPage": 30,
+   "type": "fix-figure",
+   "qid": "w9.1",
+   "before": "'13 ס״מ' at x=267,y=110 crossed the right slant; 'גובה = ?' at x=190,y=108 crossed the left slant",
+   "after": "'13 ס״מ' at x=312,y=112 (outside the slant), 'גובה = ?' at x=204,y=80 (beside the height line), with white halos",
+   "reason": "The labels overlapped the cone edges",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w9",
+   "finalPage": 30,
+   "type": "dedupe-remove",
+   "qid": "w9.5",
+   "before": "Daniel: 'נפח = π·5²·12 = 300π' — check h=12, find and fix the formula error",
+   "after": "(removed)",
+   "reason": "The same wrong computation appears as the second solution on page 37 (w36.1), same cone r=5, h=12. Page 37 is the volume error-analysis page, and w9.2 already computes V=100π for this cup.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w9",
+   "finalPage": 30,
+   "type": "overflow",
+   "before": "About 480px of empty space after the removal",
+   "after": "Scoped CSS main[data-layout=w9]: gap 14px, figure max-height 230px, answer-line 2.7em, formula-space 118px, empty table cells 56px",
+   "reason": "Rebalance the page after removing a duplicate, without adding content",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w30",
+   "finalPage": 21,
+   "type": "dedupe-vary",
+   "qid": "w30.1",
+   "before": "חרוט ישר: רדיוס 40 מ״מ, גובה 9 ס״מ",
+   "after": "חרוט ישר: רדיוס 70 מ״מ, גובה 6 ס״מ (r=7 cm, V=(⅓)π·49·6=98π cm³)",
+   "reason": "40 mm / 9 cm was used 4 times, and this item repeated the conversion from p26 w29.3. I chose new numbers that are not used elsewhere.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w30",
+   "finalPage": 21,
+   "type": "dedupe-vary",
+   "qid": "w30.3",
+   "before": "אורי הציב רדיוס 40 ו־גובה 9 בלי להמיר מ״מ לס״מ",
+   "after": "בחרוט שרדיוסו 70 מ״מ וגובהו 6 ס״מ, אורי הציב בנוסחת הנפח רדיוס 70 ו־גובה 6 בלי להמיר מ״מ לס״מ (correct data r=7 cm, h=6 cm)",
+   "reason": "This keeps the error item on the same cone as w30.1 and states the data, so the item stands on its own",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w30",
+   "finalPage": 21,
+   "type": "dedupe-remove",
+   "qid": "w30.4",
+   "before": "אם כל המידות הומרו לסנטימטרים, באיזו יחידה נכתוב את הנפח? ס״מ/ס״מ²/ס״מ³, נמקו",
+   "after": "(removed)",
+   "reason": "Same question with the same options as p12 w21.3",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w30",
+   "finalPage": 21,
+   "type": "other",
+   "before": "The w30.3 and w30.4 cards shared a cols-2 row",
+   "after": "w30.3 is full width. Scoped CSS: min-height 250mm, formula-space 74px, answer-line 2.4em.",
+   "reason": "Layout after the removal",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w31",
+   "finalPage": 11,
+   "type": "dedupe-vary",
+   "qid": "w31.1",
+   "before": "משפך: רדיוס 6 ס״מ, גובה 8 ס״מ (V=96π)",
+   "after": "משפך: רדיוס 4 ס״מ, גובה 6 ס״מ (V=(⅓)π·16·6=32π cm³)",
+   "reason": "The old numbers and answer were the official MoE Q6 target (p31), which gave it away before the curriculum page",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w31",
+   "finalPage": 11,
+   "type": "sub-bullets",
+   "qid": "w31.4",
+   "before": "<p>א. … </p><p>ב. …</p><div class=answer-line>…<p>ג. …</p>",
+   "after": "Three [data-sub] blocks, each starting with .sub-bullet. The answer line stays inside the second sub-part.",
+   "reason": "RULES §4. No label is referenced.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w31",
+   "finalPage": 11,
+   "type": "page-ref",
+   "qid": "w31.4",
+   "before": "בחרו אחד מהחפצים בעמוד",
+   "after": "בחרו אחד מהחפצים — משפך, קונוס תנועה או כובע מסיבה —",
+   "reason": "Removed the positional reference to 'the page' and named the objects",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w31",
+   "finalPage": 11,
+   "type": "overflow",
+   "before": "The shared textbook-fill left large empty bands between cards",
+   "after": "Scoped CSS: min-height 246mm, font 12.9px, formula-space 200px, answer-line 3.6em, looser sub-part and choice spacing",
+   "reason": "Rebalance empty areas",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w32",
+   "finalPage": 29,
+   "type": "fix-figure",
+   "qid": "w32.1",
+   "before": "'9 ס״מ' at x=252,y=132 sat on the height line and right-angle; 'גובה = ?' x=190,y=86 crossed the left slant; '15 ס״מ' x=275,y=86 sat on the right slant",
+   "after": "'9 ס״מ' x=280,y=134, 'גובה = ?' x=204,y=100 (13px), '15 ס״מ' x=318,y=78, with white halos",
+   "reason": "The labels overlapped the lines",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w32",
+   "finalPage": 29,
+   "type": "fix-math",
+   "qid": "w32.2",
+   "before": "<span class=math-ltr>גובה²+9²=15²</span> rendered as '15²=²+9²גובה' (and likewise for the second option)",
+   "after": "<span class=math-ltr>גובה&lrm;² + 9² = 15²</span> and 'גובה&lrm;² + 15² = 9²' now render left to right correctly (checked with a glyph-position probe)",
+   "reason": "Bidi display bug",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w32",
+   "finalPage": 29,
+   "type": "page-ref",
+   "qid": "w32.5",
+   "before": "בדיקת היגיון לפני מעבר לעמוד הבא",
+   "after": "בדיקת היגיון לפני שממשיכים",
+   "reason": "RULES §3: no page-position references",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w32",
+   "finalPage": 29,
+   "type": "overflow",
+   "before": "sheet-content min-height 224mm",
+   "after": "Scoped min-height 238mm",
+   "reason": "Even spacing",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w34",
+   "finalPage": 28,
+   "type": "dedupe-vary",
+   "qid": "w34.1",
+   "before": "רדיוס 9 ס״מ, יוצר 15 ס״מ (h=12, area 108); figure labels '9', '15' with no units",
+   "after": "רדיוס 20 ס״מ, יוצר 29 ס״מ: h=√(841−400)=21, diameter 40, area ½·40·21=420 cm². Figure labels '20 ס״מ', '29 ס״מ', 'גובה = ?' moved off the lines; aria-label updated. The drawn triangle ratio h/r=1.09 matches the real 1.05.",
+   "reason": "30:0–30:1 ≈ 32:0 (same r=9, l=15 → h=12). The 20-21-29 triple is not used anywhere else in harut.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w34",
+   "finalPage": 28,
+   "type": "fix-wording",
+   "qid": "w34.2",
+   "before": "גובה ___ קוטר ___",
+   "after": "גובה ___ ס״מ  קוטר ___ ס״מ",
+   "reason": "Missing units. Math: h=24, d=14, area 168 cm².",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w34",
+   "finalPage": 28,
+   "type": "fix-wording",
+   "qid": "w34.4",
+   "before": "רדיוס ויוצר → ___ → גובה → ___ → שטח החתך",
+   "after": "רדיוס ויוצר ← ___ ← גובה ← ___ ← שטח החתך",
+   "reason": "In RTL text the → arrows pointed against the reading order (bidi display bug)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w34",
+   "finalPage": 28,
+   "type": "overflow",
+   "before": "15px overflow",
+   "after": "Scoped CSS main[data-layout=w34] .figure-medium{max-height:150px}",
+   "reason": "Fix the overflow without deleting content",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w8",
+   "finalPage": 42,
+   "type": "fix-wording",
+   "qid": "w8.2",
+   "before": "title 'פריסה חסרה'",
+   "after": "title 'האם הפריסה נסגרת?'",
+   "reason": "The title did not match the task (the net is not missing)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w8",
+   "finalPage": 42,
+   "type": "fix-math",
+   "qid": "w8.4",
+   "before": "חרוט וגליל בעלי רדיוס בסיס 6 ס״מ וגובה 10 ס״מ. [נפח: ___] [נפח: ___]",
+   "after": "… נפח גליל מחשבים לפי הנוסחה <math-ltr>נפח גליל = π · רדיוס&lrm;² · גובה</math-ltr>. כתבו את הנפחים במונחי π. [נפח: ___ ס״מ³] ×2",
+   "reason": "RULES §10: a question that needs the cylinder formula must give it. Answers: cone 120π, cylinder 360π, ×3.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w8",
+   "finalPage": 42,
+   "type": "page-ref",
+   "qid": "w8.7",
+   "before": "בחרו חרוט אחד שציירתם במהלך החוברת",
+   "after": "בחרו חרוט ישר אחד וקבעו בעצמכם את הרדיוס ואת הגובה שלו",
+   "reason": "Cross-booklet reference removed; same task",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w8",
+   "finalPage": 42,
+   "type": "overflow",
+   "before": "About 170px empty at the bottom",
+   "after": "Scoped CSS: gap 10px, answer-line 2.1em, empty table cells 44px",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w10",
+   "finalPage": 17,
+   "type": "fix-wording",
+   "qid": "w10.4",
+   "before": "title 'איזו תשובה לא אפשרית?' + 'סמנו את כל האפשרויות שמתאימות ובדקו בחישוב.'; options 'רדיוס 4, גובה 9' etc. with no units",
+   "after": "title 'אילו הצעות מתאימות?' + 'סמנו את כל ההצעות שמתאימות לנפח הזה ובדקו כל הצעה בחישוב.'; options 'רדיוס 4 ס״מ, גובה 9 ס״מ' etc.",
+   "reason": "The title and instruction contradicted each other. Math: (4,9) and (6,4) give 48π; (3,15) gives 45π.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w10",
+   "finalPage": 17,
+   "type": "overflow",
+   "before": "About 260px empty at the bottom",
+   "after": "Scoped CSS: gap 12px, formula-space 76px, answer-line 2.2em, empty table cells 42px (a first try overflowed by 26px, then tuned)",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w35",
+   "finalPage": 16,
+   "type": "fix-math",
+   "qid": "w35.1",
+   "before": "144π = (⅓)·π·רדיוס²·12 rendered as '…π·12·²רדיוס'",
+   "after": "144π = (⅓)·π·רדיוס&lrm;²·12 now renders correctly",
+   "reason": "Bidi display bug. Math: r²=36, r=6.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w35",
+   "finalPage": 16,
+   "type": "fix-math",
+   "qid": "w35.2",
+   "before": "<math-ltr>נפח=100π</math-ltr> (mis-ordered)",
+   "after": "<math-ltr>נפח&lrm; = 100π</math-ltr>",
+   "reason": "Bidi display bug. Math: h=12.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w35",
+   "finalPage": 16,
+   "type": "page-ref",
+   "qid": "w35.4",
+   "before": "בחרו אחד משני התרגילים הראשונים והציבו את המידה שמצאתם…",
+   "after": "בחרו את הרדיוס שמצאתם לחרוט שנפחו 144π ס״מ³, או את הגובה שמצאתם לחרוט שנפחו 100π ס״מ³, והציבו אותו בחזרה בנוסחת הנפח…",
+   "reason": "Positional reference replaced by a reference to the data",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w35",
+   "finalPage": 16,
+   "type": "overflow",
+   "before": "About 150px empty",
+   "after": "Scoped CSS: min-height 242mm, formula-space 60px, answer-line 2.2em",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w13",
+   "finalPage": 12,
+   "type": "fix-math",
+   "before": "No cylinder formula anywhere on the page, although w13.2, w13.5 and w13.6 need it",
+   "after": "Added a reminder line at the top: 'נוסחאות הנפח: נפח גליל = π · רדיוס&lrm;² · גובה · נפח חרוט = (⅓) · π · רדיוס&lrm;² · גובה' (sentence-frame, math-ltr)",
+   "reason": "RULES §10: the cylinder formula must be given on the page",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w13",
+   "finalPage": 12,
+   "type": "dedupe-vary",
+   "qid": "w13.2",
+   "before": "title 'שלושה חרוטים ממלאים גליל'",
+   "after": "title 'ממלאים גליל בעזרת חרוט'",
+   "reason": "Dedupe decision 17:2 = 36:1: page 36 owns the item, and the old title gave away the answer (3). Removing 17:2 is the p17 owner's job.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w13",
+   "finalPage": 12,
+   "type": "fix-table",
+   "qid": "w13.5",
+   "before": "headers רדיוס | גובה | נפח גליל | נפח חרוט, no units or instruction",
+   "after": "'בכל שורה לגליל ולחרוט אותו רדיוס ואותו גובה. כתבו את הנפחים במונחי π.' plus headers (ס״מ)/(ס״מ³)",
+   "reason": "Missing units and form of answer. Math: 90π/30π, 150π/50π, 192π/64π.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w13",
+   "finalPage": 12,
+   "type": "overflow",
+   "before": "47px overflow after adding the reminder (shared styles.css rules keyed to aria-label 'עמוד 36' add padding-block 14px and answer-line 2.7em)",
+   "after": "Scoped overrides main.a4-page[data-layout=w13]: q-card padding-block 6px 9px, answer-line 2.3em, gap 9px, table cells 38px, compact reminder",
+   "reason": "Fix the overflow with page-scoped CSS",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w36",
+   "finalPage": 19,
+   "type": "sub-bullets",
+   "qid": "w36.1",
+   "before": "mist-card heads 'פתרון א׳' / 'פתרון ב׳' + '<p>לכל פתרון כתבו את הטעות המרכזית.</p>' with 2 shared answer lines below",
+   "after": "Each solution card is [data-sub] with a .sub-bullet heading 'פתרון' and 'הטעות המרכזית:' plus 2 answer lines inside the card. The stem is 'לפניכם שני פתרונות שגויים לחישוב הנפח. בכל פתרון כתבו את הטעות המרכזית.'",
+   "reason": "The labels were not referenced in the text, so bullets per the task; the answer space is tied to each solution",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w36",
+   "finalPage": 19,
+   "type": "other",
+   "qid": "w36.2",
+   "before": "נפח נכון: ___ ס״מ³ (no work area)",
+   "after": "'הציבו וחשבו:' + formula-space before the answer",
+   "reason": "Work area to fill the empty page (answer space only)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w36",
+   "finalPage": 19,
+   "type": "overflow",
+   "before": "Very sparse page with big gaps",
+   "after": "Scoped CSS: font 13px, min-height 240mm, larger mist-cards and formula 16px, answer-line 2.6em, formula-space 120px",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w11",
+   "finalPage": 34,
+   "type": "fix-table",
+   "qid": "w11.1",
+   "before": "headers היקף הבסיס | אורך קשת הגזרה",
+   "after": "היקף הבסיס (ס״מ) | אורך קשת הגזרה (ס״מ)",
+   "reason": "Units",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w11",
+   "finalPage": 34,
+   "type": "fix-table",
+   "qid": "w11.2",
+   "before": "headers אורך קשת הגזרה | היקף המעגל (values 10π, 12π… with no units)",
+   "after": "אורך קשת הגזרה (ס״מ) | היקף המעגל (ס״מ)",
+   "reason": "Missing units",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w11",
+   "finalPage": 34,
+   "type": "overflow",
+   "before": "About 200px empty",
+   "after": "Scoped CSS: gap 11px, answer-line 2.2em, formula-space 84px, empty table cells 36px",
+   "reason": "Rebalance (a first try overflowed and was tuned)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w15",
+   "finalPage": 35,
+   "type": "fix-wording",
+   "qid": "w15.3",
+   "before": "היקף הבסיס: ___ ; היקף המעגל המלא של הגזרה: ___ (no units)",
+   "after": "… ___ ס״מ ; … ___ ס״מ",
+   "reason": "Missing units. Math: 8π, 20π, 144°.",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w15",
+   "finalPage": 35,
+   "type": "overflow",
+   "before": "About 200px empty",
+   "after": "Scoped CSS: gap 12px, answer-line 2.7em, answer-row and choice margins, p margin 7px",
+   "reason": "Rebalance (tuned from a 2px overflow)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w37",
+   "finalPage": 26,
+   "type": "dedupe-vary",
+   "qid": "w37.1",
+   "before": "row 3: 8 | 6 | 9",
+   "after": "row 3: 10 | 24 | 25 (100+576=676=26²≠25², so not possible)",
+   "reason": "The 8-6-9 case appeared twice on this page and repeated p24 w28.3 (kept there per the dedupe decision)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w37",
+   "finalPage": 26,
+   "type": "dedupe-vary",
+   "qid": "w37.3",
+   "before": "בשלשה רדיוס 8,גובה 6,יוצר 9 שנו רק את יוצר כך שהחרוט יהיה אפשרי.",
+   "after": "תלמידה הציעה חרוט ישר שבו רדיוס 12 ס״מ, גובה 16 ס״מ, יוצר 21 ס״מ. שנו רק את היוצר כך שהחרוט יהיה אפשרי. (answer 20)",
+   "reason": "Replaces the duplicated 8-6-9 case with a new triple not used elsewhere; also fixes the missing spaces and units",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w37",
+   "finalPage": 26,
+   "type": "fix-table",
+   "qid": "w37.1",
+   "before": "headers רדיוס | גובה | יוצר",
+   "after": "רדיוס (ס״מ) | גובה (ס״מ) | יוצר (ס״מ)",
+   "reason": "Missing units",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w37",
+   "finalPage": 26,
+   "type": "overflow",
+   "before": "About 200px empty",
+   "after": "Scoped CSS: min-height 246mm, table cells 44px, formula-space 74px, answer-line 2.4em",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w38",
+   "finalPage": 43,
+   "type": "internal-text",
+   "before": "h1 and <title> 'חרוט — משימה מסכמת חדשה'",
+   "after": "'חרוט — משימה מסכמת'",
+   "reason": "'חדשה' is authoring wording visible to students",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w38",
+   "finalPage": 43,
+   "type": "dedupe-vary",
+   "qid": "w38.1",
+   "before": "קוטר הבסיס 10 מ׳ וגובה האלומה 12 מ׳ (r=5, l=13, V=100π, area 60); figure labels at old positions overlapping the lines",
+   "after": "קוטר הבסיס 30 מ׳ וגובה האלומה 20 מ׳: r=15 m, l=√(225+400)=25 m, V=(⅓)π·225·20=1500π m³, area ½·30·20=300 m². Figure labels 'רדיוס = ?', '20 מ׳', 'יוצר = ?' moved off the lines with halos; aria-label updated.",
+   "reason": "The 'new context' final task repeated the d10/h12 → 100π computation from p27, p37 and p25; the figure proportions (r/h≈0.8) now nearly match 0.75",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w38",
+   "finalPage": 43,
+   "type": "fix-wording",
+   "qid": "w38.5",
+   "before": "title 'מסכמים ייצוגים'",
+   "after": "title 'אורך, שטח או נפח?'",
+   "reason": "The title did not match the task (circle the area/volume quantities)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w38",
+   "finalPage": 43,
+   "type": "other",
+   "qid": "w38.2",
+   "before": "היוצר: [answer only]; חשבו: [answers only]",
+   "after": "Added formula-space work areas before יוצר (w38.2) and before each of the volume and area answers (w38.3). Scoped CSS: min-height 250mm, formula-space 84px, looser margins.",
+   "reason": "There was no room to compute; filled the empty page (answer space only)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w16",
+   "finalPage": 44,
+   "type": "dedupe-vary",
+   "qid": "w16.2",
+   "before": "רדיוס הבסיס 6 ס״מ, אורך היוצר 10 ס״מ (h=8, the MoE Q6 data)",
+   "after": "רדיוס הבסיס 4 ס״מ, אורך היוצר 5 ס״מ (h=√(25−16)=3)",
+   "reason": "43:1 and 43:2 repeated the official task data and answers (p31: h=8, V=96π)",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w16",
+   "finalPage": 44,
+   "type": "page-ref",
+   "qid": "w16.3",
+   "before": "השתמשו בנתונים מן הסעיף הסמוך וחשבו את נפח החרוט במונחי π.",
+   "after": "לחרוט שרדיוס בסיסו 4 ס״מ ואורך היוצר שלו 5 ס״מ, חשבו את הנפח במונחי π. היעזרו בגובה שמצאתם. (V=(⅓)π·16·3=16π cm³)",
+   "reason": "The positional reference is removed, the item stands on its own, and it uses the new data",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w16",
+   "finalPage": 44,
+   "type": "overflow",
+   "before": "About 130px empty",
+   "after": "Scoped CSS: formula-space 60px, answer-line 1.8em, table cells 36px, draw-box 86px (tuned from a 17px overflow)",
+   "reason": "Rebalance",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w18",
+   "finalPage": 7,
+   "type": "sub-bullets",
+   "qid": "w18.1",
+   "before": "<p class=compact-practice><b>תרגול בסיס לפני חרוט:</b> א. רדיוס הבסיס 3 ס״מ … ב. רדיוס הבסיס 4 ס״מ …</p>",
+   "after": "<div class=compact-practice><b>…</b><p data-sub><span class=sub-bullet></span>רדיוס הבסיס 3 ס״מ …</p><p data-sub><span class=sub-bullet></span>רדיוס הבסיס 4 ס״מ … לפי <math-ltr>π≈3</math-ltr> …</p></div>",
+   "reason": "RULES §4: inline labels become sub-bullets",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w18",
+   "finalPage": 7,
+   "type": "fix-math",
+   "qid": "w18.3",
+   "before": "choices '6+8=14', '36+64=100 ולכן היתר 10', '6·8=48' rendered reversed ('14=6+8' …)",
+   "after": "Equations wrapped in math-ltr (scoped CSS keeps the chip font)",
+   "reason": "Bidi display bug",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w18",
+   "finalPage": 7,
+   "type": "fix-math",
+   "qid": "w18.1",
+   "before": "word-bank terms 'היקף = 2 · π · רדיוס', 'שטח = π · רדיוס²' in RTL (mis-ordered)",
+   "after": "<math-ltr>היקף&lrm; = 2 · π · רדיוס</math-ltr>, <math-ltr>שטח = π · רדיוס&lrm;²</math-ltr> (probe checked)",
+   "reason": "Bidi display bug; formulas now match the booklet's left-to-right convention",
+   "by": "fix:harut-B"
+  },
+  {
+   "layout": "w1",
+   "finalPage": 2,
+   "qid": "w1.1",
+   "type": "fix-figure",
+   "before": "leader lines from (360,22), (448,118), (360,183): above the apex, off the surface to the right, below the base",
+   "after": "leaders start at the apex (360,63), on the lateral surface (392,118) and on the base rim (330,166), each with a small end dot",
+   "reason": "The leaders did not touch the cone, so it was ambiguous which box names which part. Endpoints computed from the image transform (scale 0.714, y offset 53).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w19",
+   "finalPage": 3,
+   "qid": "w19.2",
+   "type": "fix-math",
+   "before": "options: מקום הקודקוד בציור / צורת הבסיס / צבע הגוף",
+   "after": "options: מקום הקודקוד בציור / צורת הבסיס / החלק שנוגע בשולחן",
+   "reason": "Two correct options: colour also does not depend on orientation. The replacement distractor does depend on orientation.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w19",
+   "finalPage": 3,
+   "qid": "w19.4",
+   "type": "fix-wording",
+   "before": "הקיפו את המילה שמתארת את בסיס החרוט: בסיס / יוצר / גובה",
+   "after": "הקיפו את השם של העיגול שעליו עומד החרוט: בסיס / יוצר / גובה",
+   "reason": "The question contained its own answer ('בסיס').",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w19",
+   "finalPage": 3,
+   "qid": "w19.4",
+   "type": "fix-figure",
+   "before": "label יוצר at x=275, crossing the slant edge; no halo",
+   "after": "label יוצר at x=314, outside the edge; all three labels get a white halo (paint-order stroke)",
+   "reason": "The label overlapped the edge line.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w3",
+   "finalPage": 36,
+   "qid": "w3.n1",
+   "type": "sub-bullets",
+   "before": "six stand-alone .mist-card blocks headed 'מקרה א׳' … 'מקרה ו׳', with no data-q and no q-bullet",
+   "after": "one question card, data-q=\"w3.n1\", titled 'נכון או לא נכון?' with an instruction line. Each of the 6 claims is a data-sub mist-card whose header is sub-bullet + 'טענה' | 'נכון / לא נכון'.",
+   "reason": "RULES §4: the labels were numbering, not figure names, and no answer refers to them. Each question needs a q-bullet.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w3",
+   "finalPage": 36,
+   "qid": "w3.1",
+   "type": "dedupe-vary",
+   "before": "<p class=\"sentence-frame\">השלימו: בפריסה תקינה, אורך קשת הגזרה צריך להתאים ל________ של בסיס החרוט.</p>",
+   "after": "<p>הסבירו את בחירתכם:</p> + answer line",
+   "reason": "Same-page duplicate (dedupe 4:4 ≈ 4:6) of the claim card's 'אורך הקשת = ____ הבסיס' fill-in. Kept the true claim, so the true/false set still has one true item.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w3",
+   "finalPage": 36,
+   "type": "overflow",
+   "before": "with the new header the page overflowed by 56px",
+   "after": "scoped CSS: .sheet-content padding-bottom 10mm; .mist-card p margin 5px; styled the mist-head label",
+   "reason": "Keep A4 without cutting content.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w20",
+   "finalPage": 4,
+   "qid": "w20.1",
+   "type": "fix-wording",
+   "before": "<td>היוצר / הקוטר</td>",
+   "after": "<td>מן הקודקוד אל נקודה על שפת הבסיס / משפת הבסיס אל שפתו דרך המרכז</td>",
+   "reason": "The 'יוצר' row defined the term by itself, so it answered itself.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w20",
+   "finalPage": 4,
+   "qid": "w20.1",
+   "type": "fix-figure",
+   "before": "label יוצר at x=275 on the edge line, no halo",
+   "after": "label יוצר at x=314 outside the edge; halo on all labels",
+   "reason": "Overlap with the edge.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w20",
+   "finalPage": 4,
+   "qid": "w20.2",
+   "type": "dedupe-remove",
+   "before": "<p class=\"compact-practice\"><b>מי ארוך יותר?</b> … הגובה / היוצר / שווים. נמקו בעזרת חצי החתך הצירי: ___</p>",
+   "after": "(removed)",
+   "reason": "Same-page duplicate of w20.5 ('explain why the slant is longer than the height'). It also referred ahead to the half axial section. This fixed the 5px overflow.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w20",
+   "finalPage": 4,
+   "qid": "w20.5",
+   "type": "fix-figure",
+   "before": "right triangle with radius leg 150 (55→205) and height leg 100 (25→125) while r=6 < h=8; right-angle marker already drawn; 'גובה 8 ס״מ' clipped; 'יוצר 10 ס״מ' crossing the hypotenuse",
+   "after": "right triangle C(110,136), A(110,32), B(188,136): legs 104:78 = 8:6 and hypotenuse 130 = 10 (13 px/unit). Centred labels outside the triangle. Marker removed so the student marks the right angle as the text asks.",
+   "reason": "The figure contradicted the data. The task asked to mark an angle that was already marked.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w20",
+   "finalPage": 4,
+   "type": "overflow",
+   "before": "overflow 5px and empty bottom after removal",
+   "after": "scoped CSS: answer-line 2em; half-section svg height 165px",
+   "reason": "Rebalance space.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "v-anis-basics",
+   "finalPage": 8,
+   "type": "image",
+   "before": "<img class=\"image-page-art\" src=\"visual-assets/anis-basics.jpg\"> (6,997 B, truncated, does not decode)",
+   "after": "src=\"visual-assets/anis-basics.png\". Copied the verified PNG (1055x1491, sha256 b9cf1b2d…) from scratchpad work/cone-branch/visual-assets. Object-fit and A4 CSS unchanged.",
+   "reason": "Broken image; broken_image_fix in cone-branch.json.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w4",
+   "finalPage": 37,
+   "qid": "w4.2",
+   "type": "fix-wording",
+   "before": "הסבירו בקצרה מדוע מתקבל משולש שווה־שוקיים:",
+   "after": "הסבירו בקצרה את בחירתכם:",
+   "reason": "The prompt gave away the answer to the multiple-choice question just before it.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w4",
+   "finalPage": 37,
+   "qid": "w4.3",
+   "type": "fix-figure",
+   "before": "net ג: <path d=\"M55 82 L20 30 A52 52 0 0 1 95 30 Z\"> (straight sides about 63 and 66 against arc radius 52, not a sector)",
+   "after": "<path d=\"M55 82 L12.6 39.6 A60 60 0 0 1 97.4 39.6 Z\">: a true 90° sector with R=60, consistent with the base circle r=15 (60·90/360)",
+   "reason": "The net drawing was not a real sector.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w4",
+   "finalPage": 37,
+   "type": "other",
+   "before": "about 250px empty at the bottom",
+   "after": "scoped CSS: draw-box 130px; answer-line 1.8em",
+   "reason": "Rebalance empty area.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w2",
+   "finalPage": 33,
+   "qid": "w2.1",
+   "type": "fix-figure",
+   "before": "sector option: <path d=\"M20 92 A72 72 0 0 1 135 28 L85 90 Z\"> (sides 65 and 80, arc radius 72); circle r=22",
+   "after": "<path d=\"M65 95 L8.4 38.4 A80 80 0 0 1 121.6 38.4 Z\">, a true 90° sector R=80, with circle r=20 at (148,75), consistent with 80·90/360",
+   "reason": "The correct option was not a real sector.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w2",
+   "finalPage": 33,
+   "qid": "w2.2",
+   "type": "fix-figure",
+   "before": "<path d=\"M20 102 A86 86 0 0 1 155 28 L88 100 Z\"> (lopsided, sides 68 and 98)",
+   "after": "<path d=\"M90 112 L22.1 44.1 A96 96 0 0 1 157.9 44.1 Z\">, a true 90° sector",
+   "reason": "It visibly did not look like a sector.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w2",
+   "finalPage": 33,
+   "qid": "w2.3",
+   "type": "fix-figure",
+   "before": "arc A92 92 with sides 105.4",
+   "after": "arc A105.4 105.4, a true sector",
+   "reason": "The arc radius did not match the sides.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w2",
+   "finalPage": 33,
+   "qid": "w2.5",
+   "type": "overflow",
+   "before": "w2.5 was a full-width card after the w2.3/w2.4 row (overflow 91px, overlapping the footer)",
+   "after": "w2.5 moved into the left column under w2.4, inside <div class=\"col-stack\">; scoped CSS .col-stack grid and draw-box 110px",
+   "reason": "Fix the A4 overflow without cutting content.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w5",
+   "finalPage": 38,
+   "type": "other",
+   "before": "about 130px empty at the bottom",
+   "after": "scoped CSS: answer-line 1.6em; draw-box 90px",
+   "reason": "Rebalance space.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "v-puzzle-1-question",
+   "finalPage": 15,
+   "type": "other",
+   "before": "no answer space; about 120px empty between the scene and the credit",
+   "after": "<div class=\"visual-callout\"><span>מספר החרוטים שמצאתי: <span class=\"blank bw-6\"></span></span></div>",
+   "reason": "Answer space for the existing question in the empty area. No new content.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.1",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr formula-display\">נפח = (⅓)·π · רדיוס² · גובה</span> (displayed as 'נפח = (⅓)·π · גובה · ²רדיוס', factors reordered, ² on the wrong side)",
+   "after": "same text in class math-rtl (a scoped RTL isolate)",
+   "reason": "Bidi display bug.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.1",
+   "type": "fix-wording",
+   "before": "<td>נפח / שטח</td>",
+   "after": "<td>כמה מקום תופס החרוט / שטח בסיס החרוט</td>",
+   "reason": "The row answered itself.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.2",
+   "type": "fix-math",
+   "before": "3 options in math-ltr. 'נפח = 2π · רדיוס' displayed garbled as '2 = נפחπ · רדיוס'.",
+   "after": "the 3 options in math-rtl; all read correctly RTL",
+   "reason": "Bidi display bug.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.4",
+   "type": "fix-math",
+   "before": "נפח = ⅓ · π · ___² · ___ (π and the squared blank swapped visually)",
+   "after": "נפח = ⅓ · π&rlm; · ___² · ___",
+   "reason": "Bidi: the ² was captured into an LTR run with π.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.4",
+   "type": "fix-figure",
+   "before": "overlay height line (150,24)→(150,134) and radius line at y=134, extending above the apex and below the base, labelled גובה/רדיוס",
+   "after": "overlay removed; the cone image enlarged (x=-60, 420x180) so students mark r and h themselves",
+   "reason": "The drawn segments did not match the cone, and the text asks students to mark the two measures.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "qid": "w21.5",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr\">קוטר =</span> (read as '= קוטר')",
+   "after": "<span class=\"math-rtl\">קוטר =</span>",
+   "reason": "Bidi.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w21",
+   "finalPage": 9,
+   "type": "other",
+   "before": "about 300px empty at the bottom",
+   "after": "scoped CSS: gap 16px; table padding; formula-map svg 215px; choice-list gap",
+   "reason": "Rebalance.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w22",
+   "finalPage": 10,
+   "qid": "w22.2",
+   "type": "dedupe-vary",
+   "before": "רדיוס 3, גובה 8; options 24π / 72π / 11π ס״מ³; 'איזו טעות מובילה ל־72π?'",
+   "after": "רדיוס 2, גובה 9; options 12π / 36π / 11π ס״מ³; 'איזו טעות מובילה ל־36π?'",
+   "reason": "Same data as table row 1 on the same page (answer given away). Re-solved: ⅓π·4·9=12π; π·4·9=36π means ⅓ was forgotten; 2+9=11 keeps the original 11π distractor.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w22",
+   "finalPage": 10,
+   "qid": "w22.3",
+   "type": "fix-figure",
+   "before": "'בחרוט ישר מסומנים רדיוס 6 ס״מ ו־גובה 5 ס״מ' under the title 'מתרשים לחישוב', with no diagram",
+   "after": "added an inline SVG cone drawn to scale (r 90px, h 75px = 6:5) with height and radius marked '5 ס״מ' and '6 ס״מ'; 'נפח =' span changed to math-rtl",
+   "reason": "The text and title referred to a diagram that did not exist. The '= נפח' bidi bug is fixed.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w22",
+   "finalPage": 10,
+   "qid": "w22.4",
+   "type": "fix-wording",
+   "before": "רדיוס 5, גובה 12, יוצר 13",
+   "after": "רדיוס 5 ס״מ, גובה 12 ס״מ, יוצר 13 ס״מ",
+   "reason": "Units were missing.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w6",
+   "finalPage": 13,
+   "qid": "w6.1",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr\">300 ס״מ³</span> (read as 'ס״מ³ 300')",
+   "after": "<span class=\"math-rtl\">300 ס״מ³</span>",
+   "reason": "Bidi order of number and unit.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w6",
+   "finalPage": 13,
+   "qid": "w6.2",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr\">נפח = (⅓)·π · רדיוס² · גובה</span>",
+   "after": "same text in math-rtl",
+   "reason": "Bidi display bug (factors reordered).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w23",
+   "finalPage": 18,
+   "qid": "w23.1",
+   "type": "fix-math",
+   "before": "options <span class=\"math-ltr\">48π ס״מ³</span> etc. (read as 'ס״מ³ 48π')",
+   "after": "the 4 options in math-rtl, reading '48π ס״מ³'",
+   "reason": "Bidi order of number and unit.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w23",
+   "finalPage": 18,
+   "qid": "w23.4",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr\">80π ס״מ²</span>",
+   "after": "<span class=\"math-rtl\">80π ס״מ²</span>",
+   "reason": "Bidi.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w23",
+   "finalPage": 18,
+   "qid": "w23.2",
+   "type": "fix-wording",
+   "before": "החליף גובה ב-רדיוס",
+   "after": "החליף גובה ברדיוס",
+   "reason": "Regex artefact (hyphenated prefix).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w23",
+   "finalPage": 18,
+   "type": "other",
+   "before": "about 270px empty; uneven columns",
+   "after": "scoped CSS: gap 16px; formula-space 150px; answer lines 2.4em/2.8em; cols-2 stretch",
+   "reason": "Rebalance.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "v-cone-in-my-head",
+   "finalPage": 22,
+   "type": "image",
+   "before": "src=\"visual-assets/cone-in-my-head.jpg\" (5,634 B, truncated)",
+   "after": "src=\"visual-assets/cone-in-my-head.png\". Copied the verified PNG (1055x1491, sha256 ec95b439…).",
+   "reason": "Broken image; cone-branch broken_image_fix.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w7",
+   "finalPage": 14,
+   "qid": "w7.3",
+   "type": "dedupe-remove",
+   "before": "section 'חרוט בתוך גליל' (how many cones fill a cylinder with the same base and height, options 1–4)",
+   "after": "(removed)",
+   "reason": "Dedupe: harut 17:2 = 36:1. Page 36 owns the concept and p14 introduces it. This also removes the cylinder leakage.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w7",
+   "finalPage": 14,
+   "qid": "w7.4",
+   "type": "fix-wording",
+   "before": "<p>דנה: „אם מכפילים רדיוס פי 2…",
+   "after": "<p>משנים רק את הרדיוס של חרוט; הגובה נשאר כפי שהיה.</p><p>דנה: „אם מכפילים רדיוס פי 2…",
+   "reason": "Ambiguous: neither statement said the height stays fixed. Answer: Roi (×4).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w7",
+   "finalPage": 14,
+   "qid": "w7.6",
+   "type": "dedupe-vary",
+   "before": "לחרוט נתון נפח 48π ס״מ³",
+   "after": "לחרוט נתון נפח 32π ס״מ³",
+   "reason": "17:5 ⊂ 41:0 (both give 48π), and 48π is overused. Check: r²h = 96, e.g. r=4, h=6 gives ⅓π·16·6 = 32π (also r=2, h=24). 32π is used nowhere else.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w7",
+   "finalPage": 14,
+   "qid": "w7.6",
+   "type": "fix-math",
+   "before": "<span class=\"math-ltr\">רדיוס =</span> / <span class=\"math-ltr\">גובה =</span> (read as '= רדיוס')",
+   "after": "math-rtl",
+   "reason": "Bidi.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w7",
+   "finalPage": 14,
+   "type": "other",
+   "before": "layout depended on shared styles.css rules keyed to the visible page number 17; hole left by the removed card",
+   "after": "scoped CSS main[data-layout=\"w7\"]: answer-line 2.1em (answer-lines 2.6em), calc-box formula-space 100px, table rows 36px, gap 12px, cols-2 stretch",
+   "reason": "Robust to renumbering; rebalance after removal.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w24",
+   "finalPage": 5,
+   "qid": "w24.1",
+   "type": "fix-figure",
+   "before": "<text x=\"270\" y=\"88\">יוצר</text> (crossing the right side)",
+   "after": "<text x=\"300\" y=\"88\">יוצר</text>",
+   "reason": "The label overlapped the edge.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w24",
+   "finalPage": 5,
+   "type": "other",
+   "before": "about 190px empty at the bottom",
+   "after": "scoped CSS: sheet-content min-height 0, padding-bottom 12mm, gap 14px; draw-box 270px; figure max 210px",
+   "reason": "Rebalance: more room to draw the half section.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w25",
+   "finalPage": 6,
+   "qid": "w25.1",
+   "type": "fix-figure",
+   "before": "triangle 95–325 wide and 125 high (r 115 : h 125) for data r=4, h=9",
+   "after": "triangle (154,150)-(266,150)-(210,24): r 56 : h 126 = 4:9. Haloed '9 ס״מ' on the height and '4 ס״מ' under the radius.",
+   "reason": "The figure was not to scale and misled for 4:9.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w25",
+   "finalPage": 6,
+   "qid": "w25.3",
+   "type": "internal-text",
+   "before": "תלמיד חישב במקרה הקודם: שטח=(6·10)/2=30.",
+   "after": "תלמיד חישב את שטח החתך הצירי של חרוט שרדיוסו 6 ס״מ וגובהו 10 ס״מ: שטח=(6·10)/2=30.",
+   "reason": "Positional cross-reference; now self-contained, same data.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w25",
+   "finalPage": 6,
+   "qid": "w25.1",
+   "type": "fix-math",
+   "before": "3× <span class=\"math-ltr\">שטח =</span> (read as '= שטח')",
+   "after": "math-rtl",
+   "reason": "Bidi.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w25",
+   "finalPage": 6,
+   "type": "other",
+   "before": "about 190px empty",
+   "after": "scoped CSS: formula-space 84px; answer-line 2.2em",
+   "reason": "Rebalance.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w14",
+   "finalPage": 39,
+   "qid": "w14.5",
+   "type": "dedupe-remove",
+   "before": "'בודקים טענה': „ככל שהחתך המקביל לבסיס קרוב יותר לקודקוד, שטח העיגול שמתקבל גדול יותר.”",
+   "after": "(removed)",
+   "reason": "Dedupe: redundant between 10:3 and 20:4, and answered directly by w14.1 on the same page.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w14",
+   "finalPage": 39,
+   "qid": "w14.6",
+   "type": "dedupe-remove",
+   "before": "'חושבים על שני החלקים': one difference between the two parts after a parallel cut",
+   "after": "(removed)",
+   "reason": "Near-duplicate of p10 w5.2 (table: vertex yes/no, description) and w5.6.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w14",
+   "finalPage": 39,
+   "qid": "w14.1",
+   "type": "other",
+   "before": "one answer line after 'הסבירו:'",
+   "after": "two answer lines",
+   "reason": "Rebalance after removals (answer space only).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w14",
+   "finalPage": 39,
+   "type": "other",
+   "before": "large hole after the removals",
+   "after": "scoped CSS: gap 14px; cols-2 stretch; answer-line 2.2em; draw-box 230px; table columns 26/26/48% with 104px rows",
+   "reason": "Rebalance without inventing questions.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w26",
+   "finalPage": 23,
+   "qid": "w26.1",
+   "type": "fix-math",
+   "before": "options in math-ltr: '6² + 8² = יוצר²' and '6² + יוצר² = 8²' both displayed as '6² + 8² = יוצר²' (two identical-looking options); '6 + 8 = יוצר²'",
+   "after": "the three options in math-rtl; they display distinctly and read RTL correctly",
+   "reason": "The bidi bug made two options identical.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w26",
+   "finalPage": 23,
+   "qid": "w26.1",
+   "type": "fix-figure",
+   "before": "full triangle 95–325 by 125 (r:h 115:125) labelled 6, 8, יוצר (no units; יוצר on the edge; aria said 'half axial section')",
+   "after": "triangle (116,150)-(304,150)-(210,25), r:h 94:125 = 6:8. Labels '6 ס״מ' under the radius and '8 ס״מ' on the height (haloed); יוצר outside the edge. aria-label corrected.",
+   "reason": "Scale, units (the answer asks for ס״מ), overlap, and the aria mismatch.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w26",
+   "finalPage": 23,
+   "qid": "w26.3",
+   "type": "dedupe-vary",
+   "before": "נתונים רדיוס 5, יוצר 13; options גובה²+5²=13² / גובה²+13²=5²",
+   "after": "נתונים רדיוס 7 ס״מ, יוצר 25 ס״מ; options גובה² + 7² = 25² / גובה² + 25² = 7² (math-rtl)",
+   "reason": "Dedupe: 21:2 = 23:0 ≈ 25:0, change the triple. Check: 625 − 49 = 576, so h = 24. The 7-24-25 triple is used nowhere else. Units added.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w26",
+   "finalPage": 23,
+   "type": "overflow",
+   "before": "overflow 36px",
+   "after": "scoped CSS: figure-medium max 158px; formula-space 46px; cols-2 stretch",
+   "reason": "A4 fit without cutting content.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w27",
+   "finalPage": 24,
+   "qid": "w27.1",
+   "type": "fix-figure",
+   "before": "<text x=\"190\" y=\"86\">גובה = ?</text> crossing the left edge; <text x=\"275\" y=\"86\">13 ס״מ</text> inside the cone next to the height (misreadable as the height); no halo",
+   "after": "'גובה = ?' at (204,100) left of the height line; '13 ס״מ' at (318,78) outside, beside the slant; white halo on all labels (as on p24)",
+   "reason": "Overlapping or misleading labels.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w27",
+   "finalPage": 24,
+   "qid": "w27.4",
+   "type": "internal-text",
+   "before": "הציבו מחדש את הרדיוס ואת הגובה שמצאתם במקרה הראשון ובדקו שמתקבל יוצר 13 ס״מ.",
+   "after": "בחרוט שרדיוסו 5 ס״מ ויוצרו 13 ס״מ מצאתם את הגובה. הציבו את הרדיוס ואת הגובה שמצאתם במשפט פיתגורס ובדקו שמתקבל יוצר 13 ס״מ.",
+   "reason": "Positional cross-reference; now self-contained (check: 5² + 12² = 169 = 13²).",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w27",
+   "finalPage": 24,
+   "qid": "w27.1",
+   "type": "fix-math",
+   "before": "2× <span class=\"math-ltr\">גובה =</span> (read as '= גובה')",
+   "after": "math-rtl",
+   "reason": "Bidi.",
+   "by": "fix:harut-A"
+  },
+  {
+   "layout": "w24",
+   "finalPage": 5,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@58ad6f89842757ba63ced5758b26f3f52f2eefeb:worksheets/page-24.html (origin/fix/pedagogy-visual-print-polish-20260813)",
+   "after": "Content edit to the existing card w24.5. The card said 'כתבו על החתך' but showed no section diagram. It now carries the branch's version: the title 'מסמנים נתונים על חתך צירי'; a labelled axial-section SVG ('בסיס החתך = ?' and 'גובה = ?'); the text 'רדיוס בסיס החרוט הוא 6 ס״מ וגובהו 8 ס״מ. כתבו ליד השרטוט:'; and two answer lines, 'בסיס החתך הצירי = ___ ס״מ' and 'גובה המשולש = ___ ס״מ'. Everything is in harut markup: data-q=\"w24.5\" is kept (workbook.json already lists it), with .q-bullet and harut's cols-2 / figure-box / blank bw-6. I made two small figure fixes from the branch. (1) The branch triangle was 210 wide by 112 high (1.875:1), while the real ratio of 2r to h is 12:8 (1.5:1). I set the base to 66..234, so the figure is now to scale (RULES §8, a scale that does not mislead). (2) The branch label 'גובה = ?' used text-anchor=end, which inherits RTL, so in the render it lay on the dashed height line. I moved it to x=122, y=112 with text-anchor=middle, inside the triangle and clear of the line and edges. To keep the page on one A4 sheet I changed only page-scoped CSS in page-5's <head>: main[data-layout=\"w24\"] .draw-box height goes from 270px to 180px (the w24.4 drawing box, still about 4.8 cm), and there are 2 new rules scoped to main[data-layout=\"w24\"] [data-q=\"w24.5\"] (.cols-2 align-items:center; .figure-medium max-height:140px). CRLF line endings are preserved and the diff is 2 hunks.",
+   "reason": "No new page. The edit is in place in page 5 (w24), stage 'רדיוס, גובה, יוצר וחתך צירי', subtopic 'חתך צירי', level 2. It stays after w20 (page 4: radius, height and slant height with r=6, h=8, l=10) and before w25 (page 6: area of the axial section). The prerequisites are w24.1, where the axial section of a right cone is an isosceles triangle, and w24.2, where the section base is the diameter, 2r. Both come before w24.5 on the same page, so its order is unchanged.",
+   "by": "port:harut"
+  }
+ ]
+}

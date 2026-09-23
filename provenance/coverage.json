@@ -1,0 +1,869 @@
+{
+ "generated": "2026-09-23",
+ "note": "Every official chapter question and every BBB t01 question; status is relative to this repo.",
+ "rows": [
+  {
+   "id": "moe8-p3-q1",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "חוט נעץ ועיפרון.\nזיהוי נקודות בתוך המעגל ומחוץ לו בהתאם לאורך החוט הנדרש במערכת צירים.",
+   "topic": "circle",
+   "destinationRepo": null,
+   "destinationPages": [],
+   "questionId": null,
+   "status": "irrelevant",
+   "bbb": "g8.t01.A.Q1",
+   "notes": "not imported as a curriculum block. The idea appears on the supplementary page new-supp-bbb-a1.html (BBB A.Q1) and on maagal c6/c7."
+  },
+  {
+   "id": "moe8-p3-q2",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "נתון מעגל שמרכזו בראשית הצירים, והרדיוס שלו 5 (כלומר: המרחק של כל הנקודות על המעגל ממרכזו הוא 5).\nקבעו מי מהנקודות הבאות נמצאת על המעגל, ומי נמצאת בתוכו:\nA(5,0)",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    96
+   ],
+   "questionId": "moe8-p3-q2",
+   "status": "other-repo",
+   "bbb": "g8.t01.A.Q2",
+   "notes": "new-moe8-p3-1.html data-q=moe8-p3-q2"
+  },
+  {
+   "id": "moe8-p3-q3",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "לפניכם מערכת צירים שבה מסורטט מעגל.\nAB הוא קוטר המעגל.\n[figure]\nא. מהו האורך של רדיוס המעגל ביחידות אורך? (רדיוס in bold)\nב. מהם השיעורים של מרכז המעגל? (part ב",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    96
+   ],
+   "questionId": "moe8-p3-q3",
+   "status": "other-repo",
+   "bbb": "g8.t01.A.Q3",
+   "notes": "new-moe8-p3-1.html data-q=moe8-p3-q3"
+  },
+  {
+   "id": "moe8-p4-q1",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-004.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "בכפר קטן, היה ילד בשם תומר. תומר אהב לרכב על אופניו ולחקור את הטבע שסביבו. הוא החליט לצאת למסע חדש ולגלות את האזור סביב הכפר שלו.\nלפני שהתחיל את המסע, הוא עמד ל",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p4-q1",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q1",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p4-q1"
+  },
+  {
+   "id": "moe8-p5-q2",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "במעגל שרדיוסו 1 ס\"מ חסמו משושה משוכלל כפי שמתואר בסרטוט.\nא. מהן הזוויות במשולשים שבתוך המשושה.\nב. מהו היקף המשושה?\nג. האם היקף המעגל גדול, קטן או שווה להיקף המש",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p5-q2",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q2",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p5-q2"
+  },
+  {
+   "id": "moe8-p5-q4",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "סימולציה ממוחשבת (hyperlink only)",
+   "topic": "circle",
+   "destinationRepo": null,
+   "destinationPages": [],
+   "questionId": null,
+   "status": "irrelevant",
+   "bbb": null,
+   "notes": "none"
+  },
+  {
+   "id": "moe8-p5-q5",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "בשרטוט מתואר מסלול של משחק מכוניות המורכב מקטע ישר וממעגל.\nמהו בקירוב אורכו של המסלול?\ni. 1.80 מ'   ii. 2.5 מ'   iii. 5 מ'   iv. 5.80 מ'",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p5-q5",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.lost-p05-toy-car-track",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p5-q5"
+  },
+  {
+   "id": "moe8-p6-q1",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "הסרטוט מתאר אצטדיון שמורכב מריבוע ששטחו 144 מ\"ר ושני חצאי עיגולים. מהו שטחו והיקפו של האצטדיון?",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    79
+   ],
+   "questionId": "moe8-p6-q1",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q3",
+   "notes": "new-moe8-p6-1.html data-q=moe8-p6-q1"
+  },
+  {
+   "id": "moe8-p6-q2",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "נתונים שלושה ריבועים חופפים, שבתוך כל אחד מהריבועים סורטטו עיגולים חופפים המשיקים זה לזה. באיזה מהאיורים השטח הצבוע אפור הוא הגדול ביותר ומדוע?",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    74
+   ],
+   "questionId": "moe8-p6-q2",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q4",
+   "notes": "new-moe8-p6-2.html data-q=moe8-p6-q2"
+  },
+  {
+   "id": "moe8-p7-q3",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "באיור הבא שטח העיגול הוא A. מה השטח של הצורה הצבועה בתוך העיגול?",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    72
+   ],
+   "questionId": "moe8-p7-q3",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q5b",
+   "notes": "new-moe8-p7-1.html data-q=moe8-p7-q3"
+  },
+  {
+   "id": "moe8-p7-q4",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "בשרטוט שלפניכם עיגול החסום בריבוע ABCD. רדיוס העיגול הוא 6 ס\"מ.\n[figure]\nא. מה היקף ריבוע ABCD?\ni. 12π ס\"מ   ii. 36π ס\"מ   iii. 24 ס\"מ   iv. 48 ס\"מ\nב. בכמה גדול",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    74
+   ],
+   "questionId": "moe8-p7-q4",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q5a",
+   "notes": "new-moe8-p6-2.html data-q=moe8-p7-q4"
+  },
+  {
+   "id": "moe8-p8-q5",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "להכנת עגילים, צורף חותך גזרות מדיסקיות כסף עגולות.\nהוא חותך כל דיסקית ממרכז העיגול לגזרות בזווית בנות 40° , כמתואר בשרטוט.\n[figure]\nהמשקל של כל דיסקית עגולה הוא",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    72
+   ],
+   "questionId": "moe8-p8-q5",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.lost-p08-earrings-sector",
+   "notes": "new-moe8-p7-1.html data-q=moe8-p8-q5"
+  },
+  {
+   "id": "moe8-p8-q6",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "לפניכם שרטוט של מגרש מלבני שממדיו הם 150 מ' X 200 מ'.  על חלק מהמגרש שתלו דשא. שטח הדשא מורכב ממלבן שמשני צידיו שני חצאי עיגול (השטח הלבן בשרטוט).\n[figure]\nא. ה",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    79
+   ],
+   "questionId": "moe8-p8-q6",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.lost-p08-lawn-field",
+   "notes": "new-moe8-p6-1.html data-q=moe8-p8-q6"
+  },
+  {
+   "id": "moe8-p9-q7",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "המרובע ABCD הוא מלבן. המעגלים P, Q חסומים בתוך המלבן ומשיקים זה לזה.\nרדיוס כל אחד מהם הוא 5 ס\"מ. מהו שטח המלבן?\ni. 50 סמ\"ר   ii. 60 סמ\"ר   iii. 100 סמ\"ר   iv. 2",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    76
+   ],
+   "questionId": "moe8-p9-q7",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q6",
+   "notes": "new-moe8-p9-1.html data-q=moe8-p9-q7"
+  },
+  {
+   "id": "moe8-p9-q8",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "לפניכם שתי צורות:\nצורה א' היא מלבן שהצמידו לו חצי עיגול.\nצורה ב' היא מלבן שגזרו ממנו חצי עיגול.\n[figure]\nא. סַמנו את הטענה הנכונה.\n☐ היקף צורה א' קטן מהיקף צורה",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    76
+   ],
+   "questionId": "moe8-p9-q8",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q7",
+   "notes": "new-moe8-p9-1.html data-q=moe8-p9-q8"
+  },
+  {
+   "id": "moe8-p10-q9",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-010.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "העין של לונדון\nבלונדון, לצד נהר התמזה, ניצב גלגל ענק הנקרא העין של לונדון (italic).\nהביטו בתצלום ובתרשים שלפניכם.\n[photo + diagram]\nהקוטר החיצוני של גלגל הענק ה",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    22
+   ],
+   "questionId": "moe8-p10-q9",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.Q8",
+   "notes": "new-moe8-p10-1.html data-q=moe8-p10-q9"
+  },
+  {
+   "id": "moe8-p11-q1",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-011.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "שאלת סיכום:\nשם המשימה: \"פארק המזרקה\" – המכרז העירוני\nעיריית \"מי-ים\" החליטה להקים פארק מים עירוני חדש בצורת עיגול במרכז העיר .הפארק יורכב משני מעגלים בעלי מרכז מ",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    102,
+    103
+   ],
+   "questionId": "moe8-p11-q1",
+   "status": "other-repo",
+   "bbb": "g8.t01.B.park-hamizraka",
+   "notes": "new-moe8-p11-1.html data-q=moe8-p11-q1 (intro, data, part 6 a/b and part 7) + new-moe8-p11-2.html data-q=moe8-p11-2.n1 with data-curriculum=moe8-p11-q1 (parts 8–10); heading 'שאלה מתוך תוכנית הלימודים' on both pages"
+  },
+  {
+   "id": "moe8-p14-q1",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-014.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "חשבו את נפח הגלילים ושטחי המעטפת שלהם על פי הנתונים:\nא. r = 3 ס\"מ\n   h = 8 ס\"מ\nב. שטח ABCD הוא 60 סמ\"ר,\n   r = 5 ס\"מ\n[figure: two cylinders. The right one (part",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    45
+   ],
+   "questionId": "moe8-p14-q1",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q1",
+   "notes": "galil/new-moe8-p14-1.html data-q=moe8-p14-q1 (2 data-sub parts)"
+  },
+  {
+   "id": "moe8-p14-q2",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-014.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "נתון כלי בצורת גליל ששטח הבסיס שלו הוא 1000 סמ\"ר וגובהו 20 ס\"מ. ממלאים את הגליל ב- 4 ליטרים של מים. מה יהיה גובה פני המים לאחר המילוי?",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    39
+   ],
+   "questionId": "moe8-p14-q2",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q2",
+   "notes": "galil/new-moe8-p14-2.html data-q=moe8-p14-q2"
+  },
+  {
+   "id": "moe8-p15-q3",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-015.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "נתונים שני כלים.\nI גליל בתוך תיבה:\nr = 5 ס\"מ, h = 12 ס\"מ\nII תיבה ריבועית בתוך גליל:\nABCD ריבוע\nשאורך צלעו 8 ס\"מ\nh = 12 ס\"מ\nחשבו את נפח הגליל ואת נפח התיבה של כל",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    39
+   ],
+   "questionId": "moe8-p15-q3",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q3",
+   "notes": "galil/new-moe8-p14-2.html data-q=moe8-p15-q3"
+  },
+  {
+   "id": "moe8-p15-q4",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-015.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "א. נתונים 4 גלילים שמידותיהם שוות. בתוך הגלילים משולשים שונים. באיזה מהמשטחים של המשולשים הצלע המובלטת היא הקצרה ביותר? הארוכה ביותר? נמקו.\n[figure: 4 cylinders",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    46
+   ],
+   "questionId": "moe8-p15-q4",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q4",
+   "notes": "galil/new-moe8-p15-1.html data-q=moe8-p15-q4 (2 data-sub parts)"
+  },
+  {
+   "id": "moe8-p16-q5",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-016.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "דרור רצה לקנות צנצנת דבש. בחנות למוצרי טבע שאליה הלך דרור, נמכר דבש בצנצנות שצורתן גליל. דרור מצא שני גדלים של צנצנות. צנצנת אחת הייתה גבוהה פי שניים מהשנייה, א",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    31
+   ],
+   "questionId": "moe8-p16-q5",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q5",
+   "notes": "galil/new-moe8-p16-1.html data-q=moe8-p16-q5"
+  },
+  {
+   "id": "moe8-p17-q6",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-017.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "לכבוד פתיחת הקיץ, גלידרייה \"הצורה המתוקה\" השיקה גביע וופל חדש בצורת חרוט. המוכר טוען שהגביע החדש מכיל הרבה יותר גלידה מהגביע הסטנדרטי, אבל תלמידים שהגיעו למקום ",
+   "topic": "cone",
+   "destinationRepo": "harut",
+   "destinationPages": [
+    31
+   ],
+   "questionId": "moe8-p17-q6",
+   "status": "imported",
+   "bbb": "g8.t01.C.Q6",
+   "notes": "harut /c/Users/yaniv/Desktop/sasa/harut/page-31.html (data-layout w33), q-card data-q=\"moe8-p17-q6\" data-curriculum=\"moe8-p17-q6\""
+  },
+  {
+   "id": "moe8-p19-q7",
+   "kind": "official",
+   "sourceRepo": "yanivmizrachiy/jerusalem2 (copy of the MoE PDF)",
+   "commit": "ffa9833f9f",
+   "file": "public/media/curriculum/idkun-geometri-8/pages/page-019.webp",
+   "officialDocument": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+   "question": "אורכו של דף נייר מלבני הוא 30 ס\"מ, ורוחבו 21 ס\"מ.\nא. מגלגלים את הדף למעטפת גליל, כך שרוחב הדף הוא בסיס הגליל.\n[figure: a portrait sheet with arrows on its left ",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    44
+   ],
+   "questionId": "moe8-p19-q7",
+   "status": "other-repo",
+   "bbb": "g8.t01.C.Q7",
+   "notes": "galil/new-moe8-p19-1.html data-q=moe8-p19-q7 (2 data-sub parts)"
+  },
+  {
+   "id": "g8.t01.A.Q1",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "BBB wrote this body (f4251af) around the official activity label p3 #1 'חוט נעץ ועיפרון', so it is kept as supplementary material. It is the workbook's only rea",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    9
+   ],
+   "questionId": "bbbsupp.a1",
+   "status": "other-repo",
+   "notes": "new-supp-bbb-a1.html data-q=bbbsupp.a1 (supplementary, no curriculum heading)"
+  },
+  {
+   "id": "g8.t01.A.Q2",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Replaced by the official wording, all 8 points. BBB-added part א (draw the circle on a blank grid, bddf845) dropped as a duplicate: page-95 (c82, circle r=5 cen",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    96
+   ],
+   "questionId": "moe8-p3-q2",
+   "status": "other-repo",
+   "notes": "new-moe8-p3-1.html data-q=moe8-p3-q2"
+  },
+  {
+   "id": "g8.t01.A.Q3",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording. BBB's 'נמקו' and gridded figure dropped; the figure is a faithful redraw. Answer: r = 5, centre (2,0).",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    96
+   ],
+   "questionId": "moe8-p3-q3",
+   "status": "other-repo",
+   "notes": "new-moe8-p3-1.html data-q=moe8-p3-q3"
+  },
+  {
+   "id": "g8.t01.B.Q1",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official full story replaces BBB's one-sentence version. BBB hint 'π ≈ 3.14' (not in the source) dropped. Answer: C = 60π ≈ 188.4 ס״מ.",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p4-q1",
+   "status": "other-repo",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p4-q1"
+  },
+  {
+   "id": "g8.t01.B.Q2",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording, no choice set. Answers: 60° angles (6 equilateral triangles); perimeter 6 ס״מ; circle circumference 2π ≈ 6.28 > 6, so larger.",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p5-q2",
+   "status": "other-repo",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p5-q2"
+  },
+  {
+   "id": "g8.t01.B.Q3",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording. BBB figure labels 144 מ\"ר / 12 מ' are not in the source figure and are not reproduced. Answer: side 12, r 6; area 144 + 36π ≈ 257 מ״ר; perimet",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    79
+   ],
+   "questionId": "moe8-p6-q1",
+   "status": "other-repo",
+   "notes": "new-moe8-p6-1.html data-q=moe8-p6-q1"
+  },
+  {
+   "id": "g8.t01.B.Q4",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording ('…ומדוע?'). BBB choices and 'נמקו' dropped. Answer: all three grey areas are equal, s²(1 − π/4), because the total circle area is πs²/4 in eac",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    74
+   ],
+   "questionId": "moe8-p6-q2",
+   "status": "other-repo",
+   "notes": "new-moe8-p6-2.html data-q=moe8-p6-q2"
+  },
+  {
+   "id": "g8.t01.B.Q5a",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording. Answers: iv. 48 ס״מ; 144 − 36π ≈ 30.9 סמ״ר.",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    74
+   ],
+   "questionId": "moe8-p7-q4",
+   "status": "other-repo",
+   "notes": "new-moe8-p6-2.html data-q=moe8-p7-q4"
+  },
+  {
+   "id": "g8.t01.B.Q5b",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording ('באיור הבא'). Answer: A/2.",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    72
+   ],
+   "questionId": "moe8-p7-q3",
+   "status": "other-repo",
+   "notes": "new-moe8-p7-1.html data-q=moe8-p7-q3"
+  },
+  {
+   "id": "g8.t01.B.Q6",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official wording. Answer: 20 · 10 = 200 סמ״ר (iv).",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    76
+   ],
+   "questionId": "moe8-p9-q7",
+   "status": "other-repo",
+   "notes": "new-moe8-p9-1.html data-q=moe8-p9-q7"
+  },
+  {
+   "id": "g8.t01.B.Q7",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official stem, the three official claims and the official area options with checkboxes. BBB's shortened stem, reshaped claims and 'נמקו' dropped. Answers: the p",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    76
+   ],
+   "questionId": "moe8-p9-q8",
+   "status": "other-repo",
+   "notes": "new-moe8-p9-1.html data-q=moe8-p9-q8"
+  },
+  {
+   "id": "g8.t01.B.Q8",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official PISA wording, photo and diagram. BBB-written part ב (London Eye circumference, π≈3.14) dropped as a duplicate: circumference from diameter is practised",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    22
+   ],
+   "questionId": "moe8-p10-q9",
+   "status": "other-repo",
+   "notes": "new-moe8-p10-1.html data-q=moe8-p10-q9"
+  },
+  {
+   "id": "g8.t01.B.park-hamizraka",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Official full text over 2 pages. Correction to coverage-bbb.json: no 'source parts 1–5' are missing. The official numbering 6–10 is a Word list continuation aft",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    102,
+    103
+   ],
+   "questionId": "moe8-p11-q1",
+   "status": "other-repo",
+   "notes": "new-moe8-p11-1.html data-q=moe8-p11-q1 + new-moe8-p11-2.html data-q=moe8-p11-2.n1 (data-curriculum=moe8-p11-q1)"
+  },
+  {
+   "id": "g8.t01.C.Q1",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "The BBB data is wrong: h = 8 was moved from א to ב. The official page 14 puts h = 8 in part א. Checked: ב has 2r·h = 60, so h = 6, which fits. The BBB vector cy",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    45
+   ],
+   "questionId": "moe8-p14-q1",
+   "status": "other-repo",
+   "notes": "new-moe8-p14-1.html data-q=moe8-p14-q1 (official wording; BBB text not used)"
+  },
+  {
+   "id": "g8.t01.C.Q2",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "BBB paraphrase replaced by the official text.",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    39
+   ],
+   "questionId": "moe8-p14-q2",
+   "status": "other-repo",
+   "notes": "new-moe8-p14-2.html data-q=moe8-p14-q2 (official wording)"
+  },
+  {
+   "id": "g8.t01.C.Q3",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "The BBB crop p15b.png (a higher-resolution copy of the official figure) was re-used after removing the table border, split into I and II. The BBB tagblanks are ",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    39
+   ],
+   "questionId": "moe8-p15-q3",
+   "status": "other-repo",
+   "notes": "new-moe8-p14-2.html data-q=moe8-p15-q3 (official wording)"
+  },
+  {
+   "id": "g8.t01.C.Q4",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "BBB p16.png had dropped the official labels א–ד under the cylinders. They are restored as figcaptions in the official order.",
+   "topic": "cylinder",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    46
+   ],
+   "questionId": "moe8-p15-q4",
+   "status": "other-repo",
+   "notes": "new-moe8-p15-1.html data-q=moe8-p15-q4 (official wording)"
+  },
+  {
+   "id": "g8.t01.C.Q5",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "The official question is open-ended, so the multiple-choice options BBB added are not used.",
+   "topic": "circle",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    31
+   ],
+   "questionId": "moe8-p16-q5",
+   "status": "other-repo",
+   "notes": "new-moe8-p16-1.html data-q=moe8-p16-q5 (official wording)"
+  },
+  {
+   "id": "g8.t01.C.Q6",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "This is a condensed BBB paraphrase of official Q6 (pp. 17–18). The official wording, with all four parts, is now on harut page-31, so BBB is not imported. BBB's",
+   "topic": "cone",
+   "destinationRepo": "harut",
+   "destinationPages": [
+    31
+   ],
+   "questionId": "moe8-p17-q6",
+   "status": "duplicate",
+   "notes": "same question as the official item already in the workbook; only one copy kept"
+  },
+  {
+   "id": "g8.t01.C.Q7",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "The BBB vector paper_roll (with labels BBB added) is replaced by the official figures from bbb@57ae2f2:geometry8/assets/p19.png.",
+   "topic": "circle",
+   "destinationRepo": "galil",
+   "destinationPages": [
+    44
+   ],
+   "questionId": "moe8-p19-q7",
+   "status": "other-repo",
+   "notes": "new-moe8-p19-1.html data-q=moe8-p19-q7 (official wording)"
+  },
+  {
+   "id": "g8.t01.B.lost-p05-toy-car-track",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Transcribed from official p5 #5; figure redrawn. Intended answer: ii. 2.5 מ׳. The loop alone is 0.6π ≈ 1.88 מ׳, so i. is too short, and iii./iv. would need a st",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    37
+   ],
+   "questionId": "moe8-p5-q5",
+   "status": "other-repo",
+   "notes": "new-moe8-p4-1.html data-q=moe8-p5-q5"
+  },
+  {
+   "id": "g8.t01.B.lost-p08-earrings-sector",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Transcribed from official p8 #5. Answer: 40/360 = 1/9 of 2.7 g = 0.3 g.",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    72
+   ],
+   "questionId": "moe8-p8-q5",
+   "status": "other-repo",
+   "notes": "new-moe8-p7-1.html data-q=moe8-p8-q5"
+  },
+  {
+   "id": "g8.t01.B.lost-p08-lawn-field",
+   "kind": "bbb",
+   "sourceRepo": "yanivmizrachiy/bbb",
+   "commit": "e365c0f3c92d98a379b511aec6aeca032e4a8391",
+   "file": "geometry8/topics/t01_circle.py",
+   "renderedCopy": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "question": "Transcribed from official p8 #6; figure redrawn. Answers: (iv) 1225π + 7000; paved area 30,000 − 7,000 − 1225π ≈ 19,152 מ״ר; 19,152 · 40 ≈ 766,080 ₪ > 750,000, ",
+   "topic": "circle",
+   "destinationRepo": "maagal",
+   "destinationPages": [
+    79
+   ],
+   "questionId": "moe8-p8-q6",
+   "status": "other-repo",
+   "notes": "new-moe8-p6-1.html data-q=moe8-p8-q6"
+  }
+ ],
+ "sourceInventory": [
+  {
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e:circle/page-1..88.html",
+   "status": "duplicate",
+   "notes": "byte-identical to the 88 original circle pages imported into maagal (verified by blob hash); every question is in maagal (data-layout c1..c88)"
+  },
+  {
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e:cylinder/page-1..38.html + styles.css",
+   "status": "duplicate",
+   "notes": "pages identical to razpages workbooks/cylinder except π notation on pages 11-14; styles.css (A4 utilization, 29d7c6c) imported into galil"
+  },
+  {
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e:print/harut-a4.html (+ worksheets/, visual-pages/)",
+   "status": "duplicate",
+   "notes": "the cone print bundle == razpages workbooks/cone/index.html; split into harut page-N.html"
+  },
+  {
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes branch chore/world-class-architecture-chatgpt-20260826-2324",
+   "status": "imported",
+   "notes": "reviewed item by item: verified PNGs anis-basics.png and cone-in-my-head.png taken (f5a28df); minimax parts ג/ד taken from the official text instead of the branch paraphrase; infra/tests tied to the old repo skipped. world-of-cones / jerusalem-cone-vision have no intact artwork anywhere (git, Drive) — pages removed until the artwork is supplied"
+  },
+  {
+   "source": "yanivmizrachiy/razpages@c8fe7bde:workbooks/circle|cylinder|cone|visual-assets",
+   "status": "duplicate",
+   "notes": "the Phase-1 import source; identical copies of the above"
+  },
+  {
+   "source": "yanivmizrachiy/razpages@c8fe7bde:עמוד-196..210.html",
+   "status": "duplicate",
+   "notes": "BBB geometry8 t01 renders; every question is a BBB row above"
+  },
+  {
+   "source": "yanivmizrachiy/targilim (g8-01, g8-05, g8-06 pages)",
+   "status": "imported",
+   "notes": "the three circle cards are in maagal (data-layout g8-01/g8-05/g8-06); targilim G8-* engines are random generators, not fixed questions"
+  },
+  {
+   "source": "yanivmizrachiy/bbb@e365c0f other topics (t02-t04, algebra, algebra8, uncertainty, web/)",
+   "status": "irrelevant",
+   "notes": "searched for circle/cylinder/cone terms: only contexts (pie chart, Ferris wheel function, drone camera triangle) — not circle/cylinder/cone questions"
+  }
+ ]
+}
