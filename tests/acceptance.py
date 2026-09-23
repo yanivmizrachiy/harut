@@ -394,6 +394,24 @@ def g_math():
     return bad
 
 
+@gate("source-locked content")
+def g_locked():
+    """RULES: a locked source block must stay byte-identical to the registered source (hash in workbook.json)."""
+    bad = []
+    for lk in WB.get("lockedBlocks", []):
+        page = next((p for p in PAGES if p.get("layout") == lk["layout"]), None)
+        if not page:
+            bad.append(f"locked layout {lk['layout']} is not in the workbook")
+            continue
+        if lk.get("mustBeFirst") and page["n"] != 1:
+            bad.append(f"locked page {lk['layout']} must be page 1, is page {page['n']}")
+        html = (ROOT / page["file"]).read_text(encoding="utf8")
+        m = re.search(r"<!-- SOURCE-LOCK:START -->.*?<!-- SOURCE-LOCK:END -->", html, re.S)
+        if not m or hashlib.sha256(m.group(0).encode("utf8")).hexdigest() != lk["sha256"]:
+            bad.append(f"{page['file']}: locked block differs from {lk['source']}")
+    return bad
+
+
 @gate("generated files up to date")
 def g_generated():
     import subprocess
@@ -502,7 +520,7 @@ def browser_gates():
 
 
 def main():
-    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_generated, g_a4_css):
+    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_locked, g_generated, g_a4_css):
         g()
     if "--static" not in sys.argv:
         browser_gates()
