@@ -1,0 +1,1423 @@
+{
+ "repo": "yanivmizrachiy/harut",
+ "title": "חרוט — חוברת עבודה",
+ "subtitle": "זיהוי, חתך צירי, פיתגורס ונפח",
+ "accent": "#7c3aed",
+ "pageCount": 46,
+ "stages": [],
+ "forbiddenTerms": [],
+ "allowedSimilar": [],
+ "pages": [
+  {
+   "n": 1,
+   "file": "page-1.html",
+   "title": "דף מלווה המחשה",
+   "layout": "w17",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-1"
+  },
+  {
+   "n": 2,
+   "file": "page-2.html",
+   "title": "חרוט — זיהוי ותכונות",
+   "layout": "w1",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2"
+  },
+  {
+   "n": 3,
+   "file": "page-3.html",
+   "title": "חרוט — פוגשים אותו בעולם",
+   "layout": "w19",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3"
+  },
+  {
+   "n": 4,
+   "file": "page-4.html",
+   "title": "חרוט — בודקים טענות",
+   "layout": "w3",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-4"
+  },
+  {
+   "n": 5,
+   "file": "page-5.html",
+   "title": "חרוט — רדיוס, גובה ויוצר",
+   "layout": "w20",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5"
+  },
+  {
+   "n": 6,
+   "file": "page-6.html",
+   "title": "",
+   "layout": "v-anis-basics",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-6"
+  },
+  {
+   "n": 7,
+   "file": "page-7.html",
+   "title": "חרוט — ייצוגים ומבטים",
+   "layout": "w4",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7"
+  },
+  {
+   "n": 8,
+   "file": "page-8.html",
+   "title": "חרוט — מפריסה לגוף",
+   "layout": "w2",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8"
+  },
+  {
+   "n": 9,
+   "file": "page-9.html",
+   "title": "",
+   "layout": "v-jerusalem-cone-vision",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-9"
+  },
+  {
+   "n": 10,
+   "file": "page-10.html",
+   "title": "חרוט — פריסות וחתכים",
+   "layout": "w5",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10"
+  },
+  {
+   "n": 11,
+   "file": "page-11.html",
+   "title": "",
+   "layout": "v-puzzle-1-question",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-11"
+  },
+  {
+   "n": 12,
+   "file": "page-12.html",
+   "title": "חרוט — קוראים את נוסחת הנפח",
+   "layout": "w21",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12"
+  },
+  {
+   "n": 13,
+   "file": "page-13.html",
+   "title": "חרוט — נפח בצעד אחד",
+   "layout": "w22",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13"
+  },
+  {
+   "n": 14,
+   "file": "page-14.html",
+   "title": "חרוט — נפח",
+   "layout": "w6",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14"
+  },
+  {
+   "n": 15,
+   "file": "page-15.html",
+   "title": "חרוט — בוחרים חישוב נכון",
+   "layout": "w23",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-15"
+  },
+  {
+   "n": 16,
+   "file": "page-16.html",
+   "title": "",
+   "layout": "v-cone-in-my-head",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-16"
+  },
+  {
+   "n": 17,
+   "file": "page-17.html",
+   "title": "חרוט — השוואות ויישומים",
+   "layout": "w7",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17"
+  },
+  {
+   "n": 18,
+   "file": "page-18.html",
+   "title": "חרוט — מבינים חתך צירי",
+   "layout": "w24",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18"
+  },
+  {
+   "n": 19,
+   "file": "page-19.html",
+   "title": "חרוט — שטח החתך הצירי",
+   "layout": "w25",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-19"
+  },
+  {
+   "n": 20,
+   "file": "page-20.html",
+   "title": "חרוט — חתכים והסקה",
+   "layout": "w14",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20"
+  },
+  {
+   "n": 21,
+   "file": "page-21.html",
+   "title": "חרוט — פיתגורס בתוך החתך",
+   "layout": "w26",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-21"
+  },
+  {
+   "n": 22,
+   "file": "page-22.html",
+   "title": "",
+   "layout": "v-world-of-cones",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-22"
+  },
+  {
+   "n": 23,
+   "file": "page-23.html",
+   "title": "חרוט — מוצאים את הגובה",
+   "layout": "w27",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-23"
+  },
+  {
+   "n": 24,
+   "file": "page-24.html",
+   "title": "חרוט — מוצאים רדיוס או יוצר",
+   "layout": "w28",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-24"
+  },
+  {
+   "n": 25,
+   "file": "page-25.html",
+   "title": "חרוט — יישום רב־שלבי",
+   "layout": "w9",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25"
+  },
+  {
+   "n": 26,
+   "file": "page-26.html",
+   "title": "חרוט — המרת מידות",
+   "layout": "w29",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26"
+  },
+  {
+   "n": 27,
+   "file": "page-27.html",
+   "title": "חרוט — המרה ונפח",
+   "layout": "w30",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-27"
+  },
+  {
+   "n": 28,
+   "file": "page-28.html",
+   "title": "חרוט — בחיי היום־יום",
+   "layout": "w31",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-28"
+  },
+  {
+   "n": 29,
+   "file": "page-29.html",
+   "title": "",
+   "layout": "v-puzzle-2-question",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-29"
+  },
+  {
+   "n": 30,
+   "file": "page-30.html",
+   "title": "חרוט — מתכוננים למשימה רב־שלבית",
+   "layout": "w32",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30"
+  },
+  {
+   "n": 31,
+   "file": "page-31.html",
+   "title": "חרוט — גביע ה״מיני־מקס״",
+   "layout": "w33",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-31"
+  },
+  {
+   "n": 32,
+   "file": "page-32.html",
+   "title": "חרוט — פיתגורס ושטח חתך",
+   "layout": "w34",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-32"
+  },
+  {
+   "n": 33,
+   "file": "page-33.html",
+   "title": "חרוט — משימות מסכמות",
+   "layout": "w8",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33"
+  },
+  {
+   "n": 34,
+   "file": "page-34.html",
+   "title": "חרוט — מתכננים לפי נתונים",
+   "layout": "w10",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34"
+  },
+  {
+   "n": 35,
+   "file": "page-35.html",
+   "title": "חרוט — עובדים לאחור מנפח",
+   "layout": "w35",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35"
+  },
+  {
+   "n": 36,
+   "file": "page-36.html",
+   "title": "חרוט וגליל — משווים נפחים",
+   "layout": "w13",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36"
+  },
+  {
+   "n": 37,
+   "file": "page-37.html",
+   "title": "חרוט — משווים פתרונות",
+   "layout": "w36",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-37"
+  },
+  {
+   "n": 38,
+   "file": "page-38.html",
+   "title": "חרוט — פריסה במספרים",
+   "layout": "w11",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38"
+  },
+  {
+   "n": 39,
+   "file": "page-39.html",
+   "title": "חרוט — פריסה, יוצר וזווית",
+   "layout": "w15",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39"
+  },
+  {
+   "n": 40,
+   "file": "page-40.html",
+   "title": "חרוט — האם הנתונים אפשריים?",
+   "layout": "w37",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40"
+  },
+  {
+   "n": 41,
+   "file": "page-41.html",
+   "title": "חרוט — חוקרים ומתכננים",
+   "layout": "w12",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41"
+  },
+  {
+   "n": 42,
+   "file": "page-42.html",
+   "title": "חרוט — משימה מסכמת חדשה",
+   "layout": "w38",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42"
+  },
+  {
+   "n": 43,
+   "file": "page-43.html",
+   "title": "חרוט — הערכה אינטגרטיבית",
+   "layout": "w16",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43"
+  },
+  {
+   "n": 44,
+   "file": "page-44.html",
+   "title": "יסודות לחרוט — מחסן מילים והגדרות",
+   "layout": "w18",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-44"
+  },
+  {
+   "n": 45,
+   "file": "page-45.html",
+   "title": "",
+   "layout": "v-puzzle-1-answer",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-45"
+  },
+  {
+   "n": 46,
+   "file": "page-46.html",
+   "title": "",
+   "layout": "v-puzzle-2-answer",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-46"
+  }
+ ],
+ "questions": [
+  {
+   "id": "w1.1",
+   "page": 2,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w1.2",
+   "page": 2,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w1.3",
+   "page": 2,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w1.4",
+   "page": 2,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w1.5",
+   "page": 2,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-2.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w19.1",
+   "page": 3,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w19.2",
+   "page": 3,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w19.3",
+   "page": 3,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w19.4",
+   "page": 3,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w19.5",
+   "page": 3,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-3.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w3.1",
+   "page": 4,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-4.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w3.2",
+   "page": 4,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-4.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w20.1",
+   "page": 5,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w20.2",
+   "page": 5,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w20.3",
+   "page": 5,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w20.4",
+   "page": 5,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w20.5",
+   "page": 5,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-5.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w4.1",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w4.2",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w4.3",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w4.4",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w4.5",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w4.6",
+   "page": 7,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-7.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w2.1",
+   "page": 8,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w2.2",
+   "page": 8,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w2.3",
+   "page": 8,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w2.4",
+   "page": 8,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w2.5",
+   "page": 8,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-8.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w5.1",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w5.2",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w5.3",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w5.4",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w5.5",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w5.6",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-10.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w21.1",
+   "page": 12,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w21.2",
+   "page": 12,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w21.3",
+   "page": 12,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w21.4",
+   "page": 12,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w21.5",
+   "page": 12,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-12.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w22.1",
+   "page": 13,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w22.2",
+   "page": 13,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w22.3",
+   "page": 13,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w22.4",
+   "page": 13,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w22.5",
+   "page": 13,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-13.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w6.1",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w6.2",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w6.3",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w6.4",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w6.5",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w6.6",
+   "page": 14,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-14.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w23.1",
+   "page": 15,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-15.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w23.2",
+   "page": 15,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-15.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w23.3",
+   "page": 15,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-15.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w23.4",
+   "page": 15,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-15.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w7.1",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w7.2",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w7.3",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w7.4",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w7.5",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w7.6",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-17.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w24.1",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w24.2",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w24.3",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w24.4",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w24.5",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-18.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w25.1",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-19.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w25.2",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-19.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w25.3",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-19.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w25.4",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-19.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w14.1",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w14.2",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w14.3",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w14.4",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w14.5",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w14.6",
+   "page": 20,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-20.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w26.1",
+   "page": 21,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-21.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w26.2",
+   "page": 21,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-21.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w26.3",
+   "page": 21,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-21.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w26.4",
+   "page": 21,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-21.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w27.1",
+   "page": 23,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-23.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w27.2",
+   "page": 23,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-23.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w27.3",
+   "page": 23,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-23.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w27.4",
+   "page": 23,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-23.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w28.1",
+   "page": 24,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-24.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w28.2",
+   "page": 24,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-24.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w28.3",
+   "page": 24,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-24.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w28.4",
+   "page": 24,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-24.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w9.1",
+   "page": 25,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w9.2",
+   "page": 25,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w9.3",
+   "page": 25,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w9.4",
+   "page": 25,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w9.5",
+   "page": 25,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-25.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w29.1",
+   "page": 26,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w29.2",
+   "page": 26,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w29.3",
+   "page": 26,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w29.4",
+   "page": 26,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w29.5",
+   "page": 26,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-26.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w30.1",
+   "page": 27,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-27.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w30.2",
+   "page": 27,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-27.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w30.3",
+   "page": 27,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-27.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w30.4",
+   "page": 27,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-27.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w31.1",
+   "page": 28,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-28.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w31.2",
+   "page": 28,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-28.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w31.3",
+   "page": 28,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-28.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w31.4",
+   "page": 28,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-28.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w32.1",
+   "page": 30,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w32.2",
+   "page": 30,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w32.3",
+   "page": 30,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w32.4",
+   "page": 30,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w32.5",
+   "page": 30,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-30.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w34.1",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-32.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w34.2",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-32.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w34.3",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-32.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w34.4",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-32.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w8.1",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w8.2",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w8.3",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w8.4",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w8.5",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w8.6",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w8.7",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-33.q7",
+   "curriculum": null
+  },
+  {
+   "id": "w10.1",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w10.2",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w10.3",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w10.4",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w10.5",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w10.6",
+   "page": 34,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-34.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w35.1",
+   "page": 35,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w35.2",
+   "page": 35,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w35.3",
+   "page": 35,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w35.4",
+   "page": 35,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w35.5",
+   "page": 35,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-35.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w13.1",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w13.2",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w13.3",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w13.4",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w13.5",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w13.6",
+   "page": 36,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-36.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w36.1",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-37.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w36.2",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-37.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w36.3",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-37.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w11.1",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w11.2",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w11.3",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w11.4",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w11.5",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w11.6",
+   "page": 38,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-38.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w15.1",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w15.2",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w15.3",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w15.4",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w15.5",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w15.6",
+   "page": 39,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-39.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w37.1",
+   "page": 40,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w37.2",
+   "page": 40,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w37.3",
+   "page": 40,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w37.4",
+   "page": 40,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w37.5",
+   "page": 40,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-40.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w12.1",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w12.2",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w12.3",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w12.4",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w12.5",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w12.6",
+   "page": 41,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-41.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w38.1",
+   "page": 42,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w38.2",
+   "page": 42,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w38.3",
+   "page": 42,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w38.4",
+   "page": 42,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w38.5",
+   "page": 42,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-42.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w16.1",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w16.2",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w16.3",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w16.4",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q4",
+   "curriculum": null
+  },
+  {
+   "id": "w16.5",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q5",
+   "curriculum": null
+  },
+  {
+   "id": "w16.6",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q6",
+   "curriculum": null
+  },
+  {
+   "id": "w16.7",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q7",
+   "curriculum": null
+  },
+  {
+   "id": "w16.8",
+   "page": 43,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-43.q8",
+   "curriculum": null
+  },
+  {
+   "id": "w18.1",
+   "page": 44,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-44.q1",
+   "curriculum": null
+  },
+  {
+   "id": "w18.2",
+   "page": 44,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-44.q2",
+   "curriculum": null
+  },
+  {
+   "id": "w18.3",
+   "page": 44,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-44.q3",
+   "curriculum": null
+  },
+  {
+   "id": "w18.4",
+   "page": 44,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:print/harut-a4.html#print-position-44.q4",
+   "curriculum": null
+  }
+ ],
+ "allowExactPiLayouts": []
+}
