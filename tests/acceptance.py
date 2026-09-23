@@ -412,6 +412,36 @@ def g_locked():
     return bad
 
 
+@gate("page accounting")
+def g_accounting():
+    """Every page of the Phase-1 canonical workbook is accounted for (RULES §12: no page disappears silently)."""
+    f = ROOT / "provenance" / "page-accounting.json"
+    if not f.exists():
+        return ["provenance/page-accounting.json missing"]
+    acc = json.loads(f.read_text(encoding="utf8"))
+    by_layout = {p["layout"]: p["n"] for p in PAGES}
+    bad = []
+    for r in acc["phase1Pages"]:
+        st = r.get("status")
+        if st not in ("preserved", "moved", "merged", "replaced", "retired"):
+            bad.append(f"phase-1 page {r['phase1Page']} ({r['layout']}): status {st!r}")
+        elif st in ("preserved", "moved") and by_layout.get(r["layout"]) != r.get("finalPage"):
+            bad.append(f"phase-1 page {r['phase1Page']} ({r['layout']}): final page {r.get('finalPage')} != workbook {by_layout.get(r['layout'])}")
+        elif st in ("merged", "replaced"):
+            for t in r.get("replacedBy", []):
+                if by_layout.get(t["layout"]) != t["finalPage"]:
+                    bad.append(f"phase-1 page {r['phase1Page']}: replacement {t['layout']} not at page {t['finalPage']}")
+            if not r.get("replacedBy") or not r.get("reason"):
+                bad.append(f"phase-1 page {r['phase1Page']}: {st} without replacement/reason")
+        elif st == "retired" and not r.get("reason"):
+            bad.append(f"phase-1 page {r['phase1Page']}: retired without reason")
+    counted = {r["layout"] for r in acc["phase1Pages"]} | {a["layout"] for a in acc["addedPages"]}
+    for lay in by_layout:
+        if lay not in counted:
+            bad.append(f"final page {by_layout[lay]} ({lay}) is neither a phase-1 page nor listed as added")
+    return bad
+
+
 @gate("generated files up to date")
 def g_generated():
     import subprocess
@@ -520,7 +550,7 @@ def browser_gates():
 
 
 def main():
-    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_locked, g_generated, g_a4_css):
+    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_locked, g_accounting, g_generated, g_a4_css):
         g()
     if "--static" not in sys.argv:
         browser_gates()
