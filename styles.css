@@ -111,9 +111,10 @@ body {
 .q-card h3 {
   margin:-8px -11px 7px;
   padding:7px 44px 7px 12px;
-  background:linear-gradient(270deg,var(--brand-soft),rgba(255,255,255,.72));
-  border-bottom:1px solid color-mix(in srgb,var(--brand) 20%,var(--line));
+  background:#ffffff !important;
+  border-bottom:1px solid #e2e8f0;
   border-radius:12px 12px 0 0;
+  color:#0f2d59;
   font-family:"Rubik","Heebo",sans-serif;
   font-size:13.6px;
   line-height:1.2;
