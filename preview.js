@@ -64,9 +64,9 @@ import { Cone3DStudio } from './cone3d.js';
         title = `עמוד ${num}`;
       }
 
-      // Subtitle / description
+      // Subtitle / description: only if present in genuine visual instructions
       let desc = '';
-      const subEl = node.querySelector('.page-subtitle') || node.querySelector('.visual-head p');
+      const subEl = node.querySelector('.visual-head p');
       if (subEl) desc = subEl.textContent.trim();
 
       // Topic categorization derived from DOM content
@@ -433,7 +433,7 @@ import { Cone3DStudio } from './cone3d.js';
     const topicEl = document.getElementById('pnav-subbar-topic');
     const descEl = document.getElementById('pnav-subbar-desc');
     if (topicEl) topicEl.textContent = `עמוד ${pData.num}: ${pData.title}`;
-    if (descEl) descEl.textContent = pData.desc || pData.categoryName;
+    if (descEl) descEl.textContent = pData.categoryName;
 
     // Counter
     const counterEl = document.getElementById('pnav-page-counter');
