@@ -98,7 +98,15 @@ body {
   flex:0 0 auto;
   box-shadow:0 4px 12px rgba(22,133,168,.18);
 }
-.sheet-content { display:grid; gap:6px; padding-bottom:20mm; }
+.sheet-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(297mm - 18mm - 16mm);
+  gap: 3mm;
+  padding-bottom: 2mm;
+  box-sizing: border-box;
+}
 .q-card {
   border:1px solid var(--line);
   border-radius:12px;
@@ -532,25 +540,32 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
 
 /* Page 1 (חרוט — דף מלווה המחשה) Spacing & Full Area Utilization */
 [data-local-page="1"] .sheet-content {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding-bottom: 2mm;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: calc(297mm - 18mm - 14mm) !important;
+  gap: 3.5mm !important;
+  padding-bottom: 2mm !important;
 }
 [data-local-page="1"] .q-card {
-  padding: 13px 18px 14px;
+  padding: 8px 14px 9px !important;
+  background: #ffffff !important;
 }
 [data-local-page="1"] .source-steps-list {
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  margin-top: 6px;
-  font-size: 13.8px;
-  line-height: 1.5;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.4;
 }
 [data-local-page="1"] .answer-line {
-  margin: 9px 0 7px;
+  margin: 5px 0;
   min-height: 22px;
+}
+[data-local-page="1"] .page1-inquiry-card {
+  border: 1.5px solid #1685a8 !important;
+  background: #ffffff !important;
 }
 .ayelet-unified-grid {
   display: grid;
