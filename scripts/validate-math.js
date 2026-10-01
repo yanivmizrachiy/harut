@@ -100,6 +100,45 @@ export function validateMath(htmlContent) {
     }
   }
 
+  // 6. Check for unprotected exponents after blanks (prevents BiDi scrambling like "______ ² · 1/3 = נפח")
+  const unprotectedExponentRegex = /<span\s+class="blank[^"]*"><\/span>\s*[²³]/g;
+  while ((match = unprotectedExponentRegex.exec(htmlContent)) !== null) {
+    errors.push({
+      type: 'UNPROTECTED_EXPONENT_AFTER_BLANK',
+      snippet: match[0],
+      message: `Unprotected exponent after blank: "${match[0]}". Must be enclosed in .scaffold-pow with explicit flex isolation.`
+    });
+  }
+
+  // 7. Check formula scaffold integrity
+  if (htmlContent.includes('class="formula-scaffold"')) {
+    const scaffoldMatches = htmlContent.match(/<[^>]+class="formula-scaffold"[^>]*>([\s\S]*?)<\/(?:div|p)>/g) || [];
+    for (const sc of scaffoldMatches) {
+      if (!sc.includes('dir="rtl"') || !sc.includes('scaffold-pow')) {
+        errors.push({
+          type: 'FORMULA_SCAFFOLD_INTEGRITY',
+          snippet: sc.slice(0, 120),
+          message: `Formula scaffold must have dir="rtl" and use scaffold-pow for exponent attachment to prevent browser BiDi reordering.`
+        });
+      }
+    }
+  }
+
+  // 8. Check axial triangle label separation (page 5)
+  const axialTriRegex = /<section[^>]*class="[^"]*axial-bridge[^"]*"[\s\S]*?<svg[^>]*>([\s\S]*?)<\/svg>/g;
+  while ((match = axialTriRegex.exec(htmlContent)) !== null) {
+    const svgBody = match[1];
+    const hasHeightBadge = svgBody.includes('class="lbl-height"') || svgBody.includes('label-height');
+    const hasSlantBadge = svgBody.includes('class="lbl-slant"') || svgBody.includes('label-slant');
+    if (!hasHeightBadge || !hasSlantBadge) {
+      errors.push({
+        type: 'AXIAL_TRIANGLE_LABEL_COLLISION_RISK',
+        snippet: svgBody.slice(0, 120),
+        message: `Axial bridge triangle labels must have dedicated isolated badge wrappers (lbl-height on left, lbl-slant on right) to prevent overlap.`
+      });
+    }
+  }
+
   return { errors, warnings, valid: errors.length === 0 };
 }
 

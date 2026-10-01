@@ -366,7 +366,46 @@ body {
   font-weight: 600;
   line-height: 1.35;
 }
-.page-21-layout .formula-map-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:16px;align-items:center}.page-21-layout .formula-map-grid svg{width:100%;height:180px}.page-21-layout .formula-scaffold{font-size:18px;font-weight:800;text-align:center;padding:12px;background:#f2fafc;border-radius:10px}.page-21-layout .answer-line{height:1.8em}
+.page-21-layout .formula-map-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:16px;align-items:center}.page-21-layout .formula-map-grid svg{width:100%;height:180px}.page-21-layout .formula-scaffold {
+  display: flex !important;
+  flex-direction: row !important;
+  direction: rtl !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  padding: 10px 14px !important;
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  color: #0f2d59 !important;
+  unicode-bidi: isolate !important;
+}
+.formula-scaffold .scaffold-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  direction: rtl !important;
+  unicode-bidi: isolate !important;
+}
+.formula-scaffold .scaffold-pow {
+  display: inline-flex !important;
+  align-items: flex-start !important;
+  direction: ltr !important;
+  position: relative !important;
+}
+.formula-scaffold .scaffold-pow .blank {
+  margin: 0 !important;
+}
+.formula-scaffold .scaffold-pow sup {
+  font-size: 0.72em !important;
+  line-height: 1 !important;
+  margin-top: -6px !important;
+  margin-left: 2px !important;
+  color: #0f2d59 !important;
+  font-weight: 800 !important;
+}
 .page-22-layout{font-size:12.7px}.page-22-layout .sheet-content{gap:10px}.page-22-layout .q-card{padding:11px 13px 12px}.page-22-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-22-layout .work-table th,.page-22-layout .work-table td{padding:9px}.page-22-layout .work-table td{height:48px}.page-22-layout .formula-space{min-height:78px}.page-22-layout .answer-line{height:1.7em}.page-22-layout .volume-check .choice-list{gap:8px}
 .page-6-layout{font-size:12.7px}.page-6-layout .sheet-content{gap:10px}.page-6-layout .q-card{padding:11px 13px 12px}.page-6-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-6-layout .work-table th,.page-6-layout .work-table td{padding:8px 9px}.page-6-layout .work-table td{height:42px}.page-6-layout .answer-line{height:1.9em}.page-6-layout .answer-lines .answer-line{height:2em}
 .page-23-layout{font-size:12.7px}.page-23-layout .sheet-content{gap:10px}.page-23-layout .q-card{padding:11px 13px 12px}.page-23-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-23-layout .formula-space{min-height:82px}.page-23-layout .answer-line{height:1.8em}.page-23-layout .answer-lines .answer-line{height:2em}.page-23-layout .choice-list{gap:7px}
