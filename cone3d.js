@@ -3,8 +3,8 @@
  * Powered by Three.js (Hardware Accelerated PBR, Real-time Clipping, 3D Billboards, Exploded Views)
  */
 
-import * as THREE from '/vendor/three/build/three.module.js';
-import { OrbitControls } from '/vendor/three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 export class Cone3DStudio {
   constructor() {

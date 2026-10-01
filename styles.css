@@ -1,54 +1,54 @@
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; }
 :root {
-  --paper:#fffdf8;
-  --ink:#243044;
-  --muted:#667085;
+  --paper:#ffffff;
+  --ink:#1e293b;
+  --muted:#64748b;
   --line:#d8dde5;
-  --soft:#f8fafb;
+  --soft:#ffffff;
   --brand:#1685a8;
   --brand-dark:#0e6785;
-  --brand-soft:#eaf7fb;
-  --warm:#d89132;
-  --warm-soft:#fff5e8;
-  --figure-fill:#f5fbfc;
-  --green-soft:#edf9f4;
-  --red-soft:#fff1f2;
-  --shadow:0 8px 30px rgba(27,46,68,.10);
+  --brand-soft:#f1f8fc;
+  --warm:#d97706;
+  --warm-soft:#ffffff;
+  --figure-fill:#ffffff;
+  --green-soft:#ffffff;
+  --red-soft:#ffffff;
+  --shadow:0 4px 20px rgba(0,0,0,.08);
 }
 @supports (color: oklch(0.5 0.1 220)) {
   :root {
-    --paper:oklch(0.995 0.006 95);
+    --paper:#ffffff;
     --ink:oklch(0.24 0.03 250);
     --muted:oklch(0.46 0.02 250);
     --line:oklch(0.86 0.02 250);
-    --soft:oklch(0.975 0.01 245);
+    --soft:#ffffff;
     --brand:oklch(0.52 0.13 220);
     --brand-dark:oklch(0.43 0.12 220);
-    --brand-soft:oklch(0.95 0.03 220);
+    --brand-soft:oklch(0.96 0.02 220);
     --warm:oklch(0.72 0.15 60);
-    --warm-soft:oklch(0.96 0.04 70);
-    --figure-fill:oklch(0.985 0.012 220);
-    --green-soft:oklch(0.97 0.035 160);
-    --red-soft:oklch(0.97 0.035 20);
+    --warm-soft:#ffffff;
+    --figure-fill:#ffffff;
+    --green-soft:#ffffff;
+    --red-soft:#ffffff;
   }
 }
-html,body { margin:0; padding:0; }
+html,body { margin:0; padding:0; background:#ffffff !important; }
 body {
   direction:rtl;
   font-family:"Heebo","Rubik","Noto Sans Hebrew",Arial,sans-serif;
   color:var(--ink);
-  background:linear-gradient(135deg,#eef5f6 0%,#f8f3ea 100%);
+  background:#ffffff !important;
 }
 .a4-page {
   width:210mm;
   height:297mm;
   margin:0 auto;
   padding:9mm 10mm 8mm;
-  background:var(--paper);
+  background:#ffffff !important;
   position:relative;
   overflow:hidden;
-  box-shadow:var(--shadow);
+  box-shadow:0 0 0 1px #e2e8f0;
   font-size:12.4px;
   line-height:1.36;
 }
@@ -292,7 +292,80 @@ body {
 .page-20-layout{font-size:12.6px}.page-20-layout .sheet-content{gap:9px}.page-20-layout .q-card{padding:10px 12px 11px}.page-20-layout .q-card h3{margin:-10px -12px 8px;padding:7px 44px 7px 11px}.page-20-layout .figure-medium{max-height:205px}.page-20-layout .answer-line{height:1.6em}.page-20-layout .axial-bridge-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:14px;align-items:center}.page-20-layout .axial-bridge-grid svg{width:100%;height:145px}
 
 /* textbook layout batch B */
-.page-21-layout{font-size:12.7px}.page-21-layout .sheet-content{gap:10px}.page-21-layout .q-card{padding:11px 13px 12px}.page-21-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-21-layout .work-table th,.page-21-layout .work-table td{padding:8px 9px}.page-21-layout .formula-display{font-size:24px}.page-21-layout .formula-map-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:16px;align-items:center}.page-21-layout .formula-map-grid svg{width:100%;height:180px}.page-21-layout .formula-scaffold{font-size:18px;font-weight:800;text-align:center;padding:12px;background:#f2fafc;border-radius:10px}.page-21-layout .answer-line{height:1.8em}
+.page-21-layout{font-size:12.7px}.page-21-layout .sheet-content{gap:10px}.page-21-layout .q-card{padding:11px 13px 12px}.page-21-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-21-layout .work-table th,.page-21-layout .work-table td{padding:8px 9px}/* Page 11 - Geometric Inquiry Lab (מעבדת חקר במרחב) */
+.page-11-lab .sheet-content {
+  gap: 3mm;
+}
+.lab-scene-card {
+  padding: 2.8mm 3.8mm !important;
+  background: #ffffff !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 8px;
+}
+.lab-scene-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.8mm;
+}
+.lab-scene-head h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0f2d59;
+}
+.lab-scene-box {
+  width: 100%;
+  height: 66mm;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.lab-scene-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.scene-caption {
+  margin: 2mm 0 0;
+  font-size: 11.2px;
+  color: #334155;
+  line-height: 1.35;
+}
+.page-11-lab .q-card {
+  padding: 3mm 3.8mm;
+  background: #ffffff !important;
+}
+.page-11-lab .q-card h3 {
+  font-size: 13.2px;
+  margin-bottom: 1.4mm;
+  color: #0f2d59;
+}
+.page-11-lab .q-card p {
+  font-size: 11.2px;
+  line-height: 1.38;
+  margin: 1.2mm 0;
+}
+.page-11-lab .choice-row {
+  margin: 1.2mm 0;
+}
+.lab-bridge-card {
+  border: 1.5px solid #1685a8 !important;
+  background: #ffffff !important;
+  padding: 2.5mm 3.8mm !important;
+}
+.lab-bridge-card p {
+  margin: 0 !important;
+  font-size: 11.4px !important;
+  color: #0e6785 !important;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.page-21-layout .formula-map-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:16px;align-items:center}.page-21-layout .formula-map-grid svg{width:100%;height:180px}.page-21-layout .formula-scaffold{font-size:18px;font-weight:800;text-align:center;padding:12px;background:#f2fafc;border-radius:10px}.page-21-layout .answer-line{height:1.8em}
 .page-22-layout{font-size:12.7px}.page-22-layout .sheet-content{gap:10px}.page-22-layout .q-card{padding:11px 13px 12px}.page-22-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-22-layout .work-table th,.page-22-layout .work-table td{padding:9px}.page-22-layout .work-table td{height:48px}.page-22-layout .formula-space{min-height:78px}.page-22-layout .answer-line{height:1.7em}.page-22-layout .volume-check .choice-list{gap:8px}
 .page-6-layout{font-size:12.7px}.page-6-layout .sheet-content{gap:10px}.page-6-layout .q-card{padding:11px 13px 12px}.page-6-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-6-layout .work-table th,.page-6-layout .work-table td{padding:8px 9px}.page-6-layout .work-table td{height:42px}.page-6-layout .answer-line{height:1.9em}.page-6-layout .answer-lines .answer-line{height:2em}
 .page-23-layout{font-size:12.7px}.page-23-layout .sheet-content{gap:10px}.page-23-layout .q-card{padding:11px 13px 12px}.page-23-layout .q-card h3{margin:-11px -13px 9px;padding:8px 44px 8px 12px}.page-23-layout .formula-space{min-height:82px}.page-23-layout .answer-line{height:1.8em}.page-23-layout .answer-lines .answer-line{height:2em}.page-23-layout .choice-list{gap:7px}
@@ -502,49 +575,24 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
 
 @media screen {
   body {
-    background: #e5edf2 !important;
-    padding-top: 86px !important; /* space for persistent bar + subbar */
-    transition: padding-top 0.25s ease;
-  }
-  body.nav-is-collapsed {
-    padding-top: 16px !important;
+    background: #ffffff !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
   }
   .a4-page {
-    margin: 24px auto !important;
-    box-shadow: 0 10px 32px rgba(27, 46, 68, 0.16) !important;
-    border-radius: 4px;
-    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  body.view-single-page .a4-page {
-    display: none !important;
-  }
-  body.view-single-page .a4-page.current-page {
-    display: block !important;
-    margin: 20px auto !important;
+    margin: 16px auto !important;
+    background: #ffffff !important;
+    box-shadow: 0 0 0 1px #e2e8f0, 0 4px 16px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 2px;
   }
 }
 
-/* Fixed Navigation Bar */
-.preview-nav {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: var(--pnav-bg-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  color: var(--pnav-text);
-  border-bottom: 2px solid var(--pnav-gold);
-  box-shadow: 0 4px 20px rgba(14, 103, 133, 0.28);
-  font-family: "Rubik", "Heebo", sans-serif;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.preview-nav.collapsed {
-  transform: translateY(-100%);
-  pointer-events: none;
+.preview-nav,
+.preview-drawer,
+.c3d-launcher,
+.c3d-modal,
+.c3d-badge {
+  display: none !important;
 }
 
 .pnav-inner {
