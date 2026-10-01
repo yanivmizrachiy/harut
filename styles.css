@@ -1486,3 +1486,99 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
   }
 }
 
+
+/* ==========================================================================
+   Standard Israeli Mathematics Typography (מפמ״ר מתמטיקה / משרד החינוך)
+   ========================================================================== */
+.math-formula {
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Rubik", "Heebo", "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.formula-display {
+  font-size: 22px;
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-family: "Rubik", "Heebo", "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.formula-display .math-latin-alt {
+  font-size: 17px;
+  color: var(--brand-dark);
+  margin-right: 12px;
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.math-label {
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: inline-block;
+  font-family: "Rubik", "Heebo", "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.math-term {
+  font-family: "Rubik", "Heebo", "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  unicode-bidi: isolate;
+}
+/* Horizontal fraction bar (קו שבר מאוזן) */
+.math-frac {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: -0.22em;
+  text-align: center;
+  line-height: 1;
+  font-size: 0.88em;
+  padding: 0 4px;
+  font-weight: 800;
+  font-family: "Rubik", "Heebo", "Noto Sans", Arial, sans-serif;
+}
+.math-frac-num {
+  border-bottom: 2.2px solid currentColor;
+  padding-bottom: 2px;
+  display: block;
+  text-align: center;
+}
+.math-frac-den {
+  padding-top: 2px;
+  display: block;
+  text-align: center;
+}
+/* Exponent attached to Hebrew word on top-right (מעריך חזקה בצד ימין למעלה) */
+.math-pow {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  direction: ltr;
+  unicode-bidi: isolate;
+  vertical-align: baseline;
+}
+.math-pow .math-base {
+  display: inline-block;
+  direction: rtl;
+}
+.math-pow .math-exp {
+  font-size: 0.65em;
+  line-height: 0;
+  vertical-align: super;
+  position: relative;
+  top: -0.45em;
+  margin-left: 2px;
+  margin-right: 0;
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-weight: 800;
+  direction: ltr;
+}
