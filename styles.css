@@ -315,51 +315,48 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
 @media print{.textbook-fill .sheet-content,.textbook-fill-visual .sheet-content{min-height:224mm}}
 
 
-/* Page 1 Unified Layout matching Page 2 standards */
-.card-head-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6px;
+/* Page 1 (חרוט — דף מלווה המחשה) Spacing & Full Area Utilization */
+[data-local-page="1"] .sheet-content {
+  gap: 12px;
+  padding-bottom: 2mm;
 }
-.card-head-row h3 { margin: 0; }
-.bsd-tag {
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--muted);
-  background: #f1f5f9;
-  padding: 1px 8px;
-  border-radius: 6px;
-  border: 1px solid var(--line);
+[data-local-page="1"] .q-card {
+  padding: 11px 15px 12px;
 }
-.source-steps-list {
+[data-local-page="1"] .source-steps-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  margin-top: 4px;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+[data-local-page="1"] .answer-line {
+  margin: 6px 0;
 }
 .ayelet-unified-grid {
   display: grid;
-  grid-template-columns: 1fr 140px;
-  gap: 14px;
+  grid-template-columns: 1fr 155px;
+  gap: 16px;
   align-items: center;
 }
 .ayelet-unified-copy {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 .highlight-lead {
-  font-size: 15px;
+  font-size: 15.5px;
+  font-weight: 700;
   color: var(--brand-dark);
-  margin: 0 0 4px;
+  margin: 0 0 2px;
 }
 .ayelet-original-cone-img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
+  filter: drop-shadow(0 4px 12px rgba(15, 23, 42, 0.15));
   border-radius: 8px;
 }
 
