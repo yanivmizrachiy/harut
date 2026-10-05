@@ -668,16 +668,22 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
 }
 
 @media screen {
-  body {
+  html, body {
     background: #ffffff !important;
     padding-top: 0 !important;
     margin: 0 !important;
+    overflow-x: hidden !important;
   }
+  /* Comfortable preview: scale each A4 page down to fit the viewport width so the
+     whole page is readable with vertical-only scrolling (no horizontal scroll/clip).
+     --fit-scale is set by the inline script in index.html; print is unaffected
+     because this rule lives inside @media screen. */
   .a4-page {
     margin: 16px auto !important;
     background: #ffffff !important;
     box-shadow: 0 0 0 1px #e2e8f0, 0 4px 16px rgba(0, 0, 0, 0.06) !important;
     border-radius: 2px;
+    zoom: var(--fit-scale, 1);
   }
 }
 
@@ -1611,6 +1617,7 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
     page-break-after: always !important;
     break-after: page !important;
     transform: none !important;
+    zoom: 1 !important;
   }
   .a4-page:last-child {
     page-break-after: auto !important;
