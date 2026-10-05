@@ -1,7 +1,7 @@
 /**
  * Page Fill & Smart Area Utilization Validator (אכיפת ניצול שטח עמוד חכם)
  * 
- * Enforces the ironclad rule that every A4 page in the 46-page workbook:
+ * Enforces the ironclad rule that every A4 page in the 47-page workbook:
  * 1. Has substantive educational content utilizing the full printable area.
  * 2. Employs full-height flexbox distribution (justify-content: space-between)
  *    so no page suffers from dead empty voids before the footer.
@@ -31,7 +31,7 @@ export function validatePageFill(htmlContent, cssContent) {
     });
   }
 
-  // 2. Audit all 46 pages in index.html
+  // 2. Audit all 47 pages in index.html
   const pageRegex = /<main\s+class="([^"]*a4-page[^"]*)"([^>]*)>([\s\S]*?)<\/main>/g;
   let match;
   let pageIndex = 0;
@@ -79,10 +79,10 @@ export function validatePageFill(htmlContent, cssContent) {
     }
   }
 
-  if (pageIndex !== 46) {
+  if (pageIndex !== 47) {
     warnings.push({
       type: 'PAGE_COUNT_MISMATCH',
-      message: `Expected 46 pages, found ${pageIndex}.`
+      message: `Expected 47 pages, found ${pageIndex}.`
     });
   }
 
@@ -111,7 +111,7 @@ if (process.argv[1] && process.argv[1].endsWith('validate-page-fill.js')) {
   }
 
   if (valid) {
-    console.log(`\n✅ Page Fill Check PASSED 100%! All 46 pages enforce smart full-page area utilization with zero dead voids.\n`);
+    console.log(`\n✅ Page Fill Check PASSED 100%! All 47 pages enforce smart full-page area utilization with zero dead voids.\n`);
     process.exit(0);
   } else {
     console.log(`\n❌ Page Fill Check FAILED. Space utilization corrections required.\n`);
