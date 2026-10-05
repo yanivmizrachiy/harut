@@ -814,3 +814,51 @@ main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
   font-weight: 800;
   direction: ltr;
 }
+
+
+/* ===== Frameless questions (author request)): questions flow with whitespace, only the page <h1> remains a heading ===== */
+.a4-page .q-card,
+.a4-page .mist-card,
+.a4-page .part-card,
+.a4-page .figure-box,
+.a4-page .source-card,
+.a4-page .sentence-frame,
+.a4-page .theorem-box,
+.a4-page .case-card,
+.a4-page .lab-scene-card,
+.a4-page .lab-scene-box,
+.a4-page .lab-bridge-card,
+.a4-page .net-transition,
+.a4-page .page1-inquiry-card {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* keep a little vertical rhythm but let .sheet-content gap do the separation */
+.a4-page .q-card,
+.a4-page .mist-card { padding-top: 0 !important; padding-bottom: 0 !important; }
+/* flatten the old boxed header bars (not <h3> elements) to plain inline labels */
+.a4-page .mist-head,
+.a4-page .source-card > .source-label,
+.a4-page .lab-scene-head {
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.a4-page .case-card h4 { border: 0 !important; padding-bottom: 0 !important; }
+/* folded prompts: the heading text that WAS the question, now a plain lead line */
+.a4-page .q-prompt {
+  margin: 0 0 5px !important;
+  font-weight: 700;
+  color: #0f2d59;
+  font-size: 13px;
+  line-height: 1.3;
+}
+/* a touch more breathing room between now-frameless questions */
+.a4-page .sheet-content { gap: 11px; }
+
