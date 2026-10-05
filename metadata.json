@@ -1,4 +1,7 @@
 {
   "name": "חרוט — חוברת עבודה",
-  "description": "חוברת חרוט: 46 דפי A4 להדפסה בקובץ אחד, בעברית"
+  "description": "חוברת חרוט: 46 דפי A4 להדפסה בקובץ אחד, בעברית",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

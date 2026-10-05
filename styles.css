@@ -102,9 +102,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: calc(297mm - 18mm - 16mm);
+  min-height: calc(297mm - 18mm - 26mm);
   gap: 3mm;
-  padding-bottom: 2mm;
+  margin-bottom: 11mm;
+  padding-bottom: 1mm;
   box-sizing: border-box;
 }
 .q-card {
@@ -534,6 +535,43 @@ main:has(.page-number[aria-label="עמוד 36"]) .q-card{padding-block:14px}
 main:has(.page-number[aria-label="עמוד 39"]) .work-table td{height:46px}
 main:has(.page-number[aria-label="עמוד 39"]) .formula-space{min-height:68px}
 main:has(.page-number[aria-label="עמוד 39"]) .answer-line{height:2.1em}
+
+/* Page 30 & 31 Spacing & Textbook Layout */
+[data-local-page="30"] .sheet-content {
+  gap: 2.2mm !important;
+}
+[data-local-page="30"] .figure-medium {
+  max-height: 145px !important;
+}
+[data-local-page="30"] .formula-space {
+  min-height: 26px !important;
+}
+[data-local-page="30"] .q-card {
+  padding: 6.5px 11px 7.5px !important;
+}
+[data-local-page="30"] .answer-line {
+  margin: 4px 0 !important;
+  min-height: 20px !important;
+}
+
+[data-local-page="31"] .sheet-content {
+  gap: 2.2mm !important;
+}
+[data-local-page="31"] .figure-medium {
+  max-height: 140px !important;
+}
+[data-local-page="31"] .q-card {
+  padding: 7px 11px !important;
+}
+[data-local-page="31"] .answer-line {
+  margin: 4px 0 !important;
+  min-height: 20px !important;
+}
+
+.lbl-height text, .lbl-radius text, .lbl-slant text {
+  font-family: "Rubik", "Heebo", "Noto Sans Hebrew", sans-serif;
+  user-select: none;
+}
 
 @media print{.textbook-fill .sheet-content,.textbook-fill-visual .sheet-content{min-height:224mm}}
 
