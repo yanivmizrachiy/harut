@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "project": "חרוט חדש",
+  "repository": "yanivmizrachiy/harut",
+  "canonicalProgressTracker": true,
+  "updatedAt": "2026-10-09T01:01:00+03:00",
+  "updatedBy": "ChatGPT",
+  "requirementsBaseline": {
+    "ready": false,
+    "expectedSourceOfTruth": "SOURCE_OF_TRUTH.md",
+    "reason": "No SOURCE_OF_TRUTH.md is currently present on GitHub main or feat/cone-curriculum-and-preview. A truthful requirements-completion percentage cannot be computed until the canonical requirements file is pushed and read.",
+    "doNotInventPercent": true
+  },
+  "scoring": {
+    "weightTotalWhenBaselined": 100,
+    "formulaWhenBaselined": "round(sum(task.weight * task.percent / 100))",
+    "evidenceRequiredForProgress": true,
+    "doneRequiresAcceptanceAndEvidence": true,
+    "completionRule": "100% is allowed only after the canonical requirements baseline exists, every scored task is done, no blocker exists, and required QA/preview evidence passes.",
+    "noGuessing": true
+  },
+  "progress": {
+    "overallProgressPercent": null,
+    "verifiedAgainstCanonicalRequirementsPercent": 0,
+    "remainingPercent": null,
+    "blockedCount": 1,
+    "status": "blocked_pending_source_of_truth"
+  },
+  "knownRepositoryEvidence": [
+    "main contains the existing cone workbook implementation, including index.html, styles.css, preview.js, server.js and validation scripts.",
+    "feat/cone-curriculum-and-preview exists and contains a newer cone implementation commit.",
+    "Existing code is not scored as requirement completion until it is checked against the canonical SOURCE_OF_TRUTH.md."
+  ],
+  "tasks": [
+    {
+      "id": "H-00",
+      "weight": 0,
+      "title": "קליטת מקור האמת הקנוני מ-Claude Code ל-GitHub",
+      "status": "blocked",
+      "percent": 0,
+      "evidence": ["GitHub main does not contain SOURCE_OF_TRUTH.md.", "GitHub branch feat/cone-curriculum-and-preview does not contain SOURCE_OF_TRUTH.md."],
+      "blockedReason": "The canonical requirements being edited in Claude Code have not yet been pushed to GitHub."
+    }
+  ],
+  "lastProgressReport": {
+    "completedPercent": null,
+    "remainingPercent": null,
+    "summary": "Progress-tracking infrastructure is installed, but the project deliberately shows no fabricated completion number. As soon as SOURCE_OF_TRUTH.md is pushed, requirements will be converted to weighted tasks and scored only from repository/QA/preview evidence."
+  }
+}
