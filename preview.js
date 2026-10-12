@@ -33,6 +33,11 @@ import { Cone3DStudio } from './cone3d.js';
     setupIntersectionObserver();
     setupShortcuts();
     restoreState();
+    enforceMobileFit();
+    window.addEventListener('resize', enforceMobileFit, { passive: true });
+    window.addEventListener('orientationchange', enforceMobileFit, { passive: true });
+    window.addEventListener('beforeprint', () => $('.a4-page').forEach(p => { p.style.zoom = ''; }));
+    window.addEventListener('afterprint', enforceMobileFit);
     updateUI(currentPage, false);
   }
 
@@ -291,6 +296,23 @@ import { Cone3DStudio } from './cone3d.js';
 
   function fitWidthZoom() {
     setZoom(Math.round(Math.min(1.2, Math.max(0.5, (window.innerWidth - 48) / 794)) * 100) / 100);
+  }
+
+  // Mobile-only layout fit. CSS zoom changes layout dimensions; unlike transform,
+  // it does not leave an A4-width scrollable box behind. Print remains unchanged.
+  function enforceMobileFit() {
+    const mobile = window.matchMedia('(max-width: 900px)').matches;
+    document.documentElement.style.overflowX = mobile ? 'clip' : '';
+    document.body.style.overflowX = mobile ? 'clip' : '';
+    document.body.style.overscrollBehaviorX = mobile ? 'none' : '';
+    if (!mobile) {
+      $('.a4-page').forEach(page => { page.style.zoom = ''; });
+      return;
+    }
+    const pageWidth = 210 * 96 / 25.4;
+    const available = Math.max(1, document.documentElement.clientWidth - 12);
+    const scale = Math.min(1, available / pageWidth);
+    $('.a4-page').forEach(page => { page.style.zoom = String(scale); });
   }
 
   function toggleDrawer() {
