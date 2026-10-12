@@ -226,13 +226,45 @@ import { Cone3DStudio } from './cone3d.js';
     document.addEventListener('click', () => printMenu.classList.remove('open'));
     $('pnav-print-all').addEventListener('click', () => { printMenu.classList.remove('open'); window.print(); });
     $('pnav-print-current').addEventListener('click', () => { printMenu.classList.remove('open'); printSinglePage(currentPage); });
+
+    $('pnav-collapse-btn').addEventListener('click', collapseNav);
   }
 
-  function updateUI(num, save = true) {
-    if (save) sessionStorage.setItem('harut_active_page', String(num));
-    $('pnav-page-select').value = String(num);
-    $('pnav-page-counter').textContent = `${num} / ${pages.length}`;
-    $('pill-page-num').textContent = String(num);
+  function goToPage(num) {
+    currentPage = Math.max(1, Math.min(pages.length, num));
+    sessionStorage.setItem('harut_active_page', currentPage);
+
+    const el = document.querySelector(`.a4-page[data-local-page="${currentPage}"]`);
+    if (!el) return;
+
+    if (viewMode === 'single') {
+      $$('.a4-page').forEach(p => p.classList.remove('current-page'));
+      el.classList.add('current-page');
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    } else {
+      const top = window.scrollY + el.getBoundingClientRect().top - (isNavCollapsed ? 0 : 80);
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    }
+    updateUI(currentPage, true);
+  }
+
+  function updateUI(num, updateSelect) {
+    const p = pages.find(item => item.num === num) || { num, title: `עמוד ${num}`, categoryName: 'חרוט' };
+    $('pnav-subbar-topic').textContent = `עמוד ${p.num}: ${p.title}`;
+    $('pnav-subbar-desc').textContent = p.categoryName;
+    $('pnav-page-counter').textContent = `${p.num} / ${pages.length}`;
+    if (updateSelect && $('pnav-page-select').value !== String(num)) $('pnav-page-select').value = String(num);
+
+    const pillNum = $('pill-page-num');
+    if (pillNum) pillNum.textContent = num;
+    $('pnav-print-current-label').textContent = `עמוד ${num} בלבד`;
+
+    $$('.pdrawer-card').forEach(card => {
+      const active = parseInt(card.dataset.targetPage, 10) === num;
+      card.classList.toggle('active', active);
+      if (active && $('preview-drawer').classList.contains('open')) card.scrollIntoView({ block: 'nearest' });
+    });
+
     $('pnav-prev').disabled = num <= 1;
     $('pnav-next').disabled = num >= pages.length;
   }
@@ -264,29 +296,21 @@ import { Cone3DStudio } from './cone3d.js';
     setZoom(Math.round(Math.min(1.2, Math.max(0.5, (window.innerWidth - 48) / 794)) * 100) / 100);
   }
 
+  // Mobile-only layout fit. CSS zoom changes layout dimensions; unlike transform,
+  // it does not leave an A4-width scrollable box behind. Print remains unchanged.
   function enforceMobileFit() {
     const mobile = window.matchMedia('(max-width: 900px)').matches;
-    document.documentElement.style.overflowX = mobile ? 'hidden' : '';
-    document.body.style.overflowX = mobile ? 'hidden' : '';
-    document.documentElement.style.overscrollBehaviorX = mobile ? 'none' : '';
+    document.documentElement.style.overflowX = mobile ? 'clip' : '';
+    document.body.style.overflowX = mobile ? 'clip' : '';
     document.body.style.overscrollBehaviorX = mobile ? 'none' : '';
-    document.documentElement.style.touchAction = mobile ? 'pan-y pinch-zoom' : '';
-    document.body.style.touchAction = mobile ? 'pan-y pinch-zoom' : '';
-    if (!mobile) return;
-
-    const available = Math.max(280, window.innerWidth - 12);
+    if (!mobile) {
+      $('.a4-page').forEach(page => { page.style.zoom = ''; });
+      return;
+    }
     const pageWidth = 210 * 96 / 25.4;
+    const available = Math.max(1, document.documentElement.clientWidth - 12);
     const scale = Math.min(1, available / pageWidth);
-    zoomLevel = scale;
-    document.documentElement.style.setProperty('--preview-zoom', scale);
-    const zoomLabel = $('pnav-zoom-val');
-    if (zoomLabel) zoomLabel.textContent = `${Math.round(scale * 100)}%`;
-    $$('.a4-page').forEach(p => {
-      p.style.transformOrigin = 'top center';
-      p.style.transform = `scale(${scale})`;
-      p.style.marginLeft = 'auto';
-      p.style.marginRight = 'auto';
-    });
+    $('.a4-page').forEach(page => { page.style.zoom = String(scale); });
   }
 
   function toggleDrawer() {
@@ -366,14 +390,6 @@ import { Cone3DStudio } from './cone3d.js';
     const savedMode = sessionStorage.getItem('harut_view_mode');
     if (savedMode === 'single') setViewMode('single');
     if (savedPage >= 1 && savedPage <= pages.length) goToPage(savedPage);
-  }
-
-  function goToPage(num) {
-    num = Math.max(1, Math.min(pages.length, num));
-    currentPage = num;
-    const target = pages.find(p => p.num === num)?.element;
-    if (target) target.scrollIntoView({ behavior: 'auto', block: 'start' });
-    updateUI(num, true);
   }
 
   function escapeHtml(str) {
