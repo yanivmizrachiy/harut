@@ -36,6 +36,8 @@ import { Cone3DStudio } from './cone3d.js';
     enforceMobileFit();
     window.addEventListener('resize', enforceMobileFit, { passive: true });
     window.addEventListener('orientationchange', enforceMobileFit, { passive: true });
+    window.addEventListener('beforeprint', () => $('.a4-page').forEach(p => { p.style.zoom = ''; }));
+    window.addEventListener('afterprint', enforceMobileFit);
     updateUI(currentPage, false);
   }
 
