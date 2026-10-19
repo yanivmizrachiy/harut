@@ -1,0 +1,6 @@
+/* Rubik 1.100 (Hubert & Fischer; Hebrew by Meir Sadan), SIL Open Font License 1.1 — bundled so every
+   computer and CI render the workbook with the same metrics (the A4 layout depends on them). */
+@font-face{font-family:"Rubik";font-style:normal;font-weight:400;font-display:block;src:url("Rubik-Regular.ttf") format("truetype")}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:700;font-display:block;src:url("Rubik-Bold.ttf") format("truetype")}
+@font-face{font-family:"Rubik";font-style:italic;font-weight:400;font-display:block;src:url("Rubik-Italic.ttf") format("truetype")}
+@font-face{font-family:"Rubik";font-style:italic;font-weight:700;font-display:block;src:url("Rubik-BoldItalic.ttf") format("truetype")}

@@ -442,6 +442,56 @@ def g_accounting():
     return bad
 
 
+def _selectors(css):
+    """yield (selector, is_nested_in_at_rule) for every style rule (one level of @media/@supports nesting)."""
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)
+    i = 0
+    while i < len(css):
+        j = css.find("{", i)
+        if j < 0:
+            break
+        head = css[i:j].strip()
+        if head.startswith("@"):
+            depth, k = 1, j + 1
+            while k < len(css) and depth:
+                depth += {"{": 1, "}": -1}.get(css[k], 0); k += 1
+            if head.startswith(("@media", "@supports")):
+                for sel, _ in _selectors(css[j + 1:k - 1]):
+                    yield sel, True
+            i = k
+            continue
+        k = css.find("}", j)
+        for sel in head.split(","):
+            if sel.strip():
+                yield sel.strip(), False
+        i = k + 1
+
+
+@gate("page CSS scoped to its page")
+def g_css_scope():
+    """page-level <style> rules must target only their own page (print.html merges all page styles)."""
+    bad = []
+    for p in PAGES:
+        html = (ROOT / p["file"]).read_text(encoding="utf8")
+        want = f'[data-layout="{p["layout"]}"]'
+        for css in re.findall(r"<style[^>]*>(.*?)</style>", html, re.S):
+            for sel, _ in _selectors(css):
+                if want not in sel:
+                    bad.append(f"{p['file']}: unscoped selector '{sel[:60]}'")
+    return bad
+
+
+@gate("bidi: no Hebrew label inside LTR math runs")
+def g_bidi():
+    bad = []
+    for f in page_files():
+        for n in dom(f).iter():
+            # an LTR run that STARTS with Hebrew renders its '=' / operators before the Hebrew word ("= רדיוס")
+            if ("math-ltr" in n.cls() or n.attrs.get("dir") == "ltr") and n.tag in ("span", "td", "div", "p") and re.match(r"[א-ת]", n.inner_text()):
+                bad.append(f"{f.name}: LTR run starts with Hebrew: {n.inner_text()[:40]!r}")
+    return bad
+
+
 @gate("generated files up to date")
 def g_generated():
     import subprocess
@@ -550,7 +600,7 @@ def browser_gates():
 
 
 def main():
-    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_locked, g_accounting, g_generated, g_a4_css):
+    for g in (g_numbering, g_no_qnum, g_qbullets, g_subbullets, g_curriculum, g_provenance, g_dupes, g_leak, g_links, g_rtl, g_math, g_locked, g_accounting, g_css_scope, g_bidi, g_generated, g_a4_css):
         g()
     if "--static" not in sys.argv:
         browser_gates()
