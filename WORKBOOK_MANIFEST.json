@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 3,
+  "id": "harut",
+  "name": "חוברת החרוט",
+  "author": "יניב רז",
+  "credit": [
+    "יניב רז - מדריך מחוזי חט״ב בעיר ירושלים",
+    "הדרכה במחוז ירושלים והעיר ירושלים - מנח״י, בהובלת איילת קריספין"
+  ],
+  "totalPages": 46,
+  "cover": null,
+  "pageSelector": "main.a4-page",
+  "assets": {
+    "css": [
+      "styles.css"
+    ],
+    "pageCssPattern": null,
+    "fontsCss": "styles/reader-fonts.css",
+    "mathjax": null,
+    "mathjaxFontRoot": null
+  },
+  "pages": [
+    {
+      "file": "page-1.html",
+      "workbookNumber": 1,
+      "chapterId": "recognition",
+      "title": "חרוט — דף מלווה המחשה"
+    },
+    {
+      "file": "page-2.html",
+      "workbookNumber": 2,
+      "chapterId": "recognition",
+      "title": "חרוט — זיהוי ותכונות"
+    },
+    {
+      "file": "page-3.html",
+      "workbookNumber": 3,
+      "chapterId": "recognition",
+      "title": "חרוט — מודלים גאומטריים בסביבה"
+    },
+    {
+      "file": "page-4.html",
+      "workbookNumber": 4,
+      "chapterId": "recognition",
+      "title": "חרוט — בודקים טענות"
+    },
+    {
+      "file": "page-5.html",
+      "workbookNumber": 5,
+      "chapterId": "recognition",
+      "title": "חרוט — רדיוס, גובה ויוצר"
+    },
+    {
+      "file": "page-6.html",
+      "workbookNumber": 6,
+      "chapterId": "recognition",
+      "title": "מה המצב הלימודי של אניס?"
+    },
+    {
+      "file": "page-7.html",
+      "workbookNumber": 7,
+      "chapterId": "recognition",
+      "title": "חרוט — ייצוגים ומבטים"
+    },
+    {
+      "file": "page-8.html",
+      "workbookNumber": 8,
+      "chapterId": "nets",
+      "title": "חרוט — מפריסה לגוף"
+    },
+    {
+      "file": "page-9.html",
+      "workbookNumber": 9,
+      "chapterId": "nets",
+      "title": "חרוט — מפריסה דו־ממדית להנדסה במרחב"
+    },
+    {
+      "file": "page-10.html",
+      "workbookNumber": 10,
+      "chapterId": "nets",
+      "title": "חרוט — פריסות וחתכים"
+    },
+    {
+      "file": "page-11.html",
+      "workbookNumber": 11,
+      "chapterId": "nets",
+      "title": "חרוט — מעבדת חקר במרחב האמיתי"
+    },
+    {
+      "file": "page-12.html",
+      "workbookNumber": 12,
+      "chapterId": "volume",
+      "title": "חרוט — קוראים את נוסחת הנפח"
+    },
+    {
+      "file": "page-13.html",
+      "workbookNumber": 13,
+      "chapterId": "volume",
+      "title": "חרוט — נפח בצעד אחד"
+    },
+    {
+      "file": "page-14.html",
+      "workbookNumber": 14,
+      "chapterId": "volume",
+      "title": "חרוט — נפח"
+    },
+    {
+      "file": "page-15.html",
+      "workbookNumber": 15,
+      "chapterId": "volume",
+      "title": "חרוט — בוחרים חישוב נכון"
+    },
+    {
+      "file": "page-16.html",
+      "workbookNumber": 16,
+      "chapterId": "volume",
+      "title": "הכול חרוט לי בראש"
+    },
+    {
+      "file": "page-17.html",
+      "workbookNumber": 17,
+      "chapterId": "volume",
+      "title": "חרוט — השוואות ויישומים"
+    },
+    {
+      "file": "page-18.html",
+      "workbookNumber": 18,
+      "chapterId": "axial",
+      "title": "חרוט — מבינים חתך צירי"
+    },
+    {
+      "file": "page-19.html",
+      "workbookNumber": 19,
+      "chapterId": "axial",
+      "title": "חרוט — שטח החתך הצירי"
+    },
+    {
+      "file": "page-20.html",
+      "workbookNumber": 20,
+      "chapterId": "axial",
+      "title": "חרוט — חתכים והסקה"
+    },
+    {
+      "file": "page-21.html",
+      "workbookNumber": 21,
+      "chapterId": "axial",
+      "title": "חרוט — פיתגורס בתוך החתך"
+    },
+    {
+      "file": "page-22.html",
+      "workbookNumber": 22,
+      "chapterId": "axial",
+      "title": "עולם החרוטים"
+    },
+    {
+      "file": "page-23.html",
+      "workbookNumber": 23,
+      "chapterId": "applications",
+      "title": "חרוט — מוצאים את הגובה"
+    },
+    {
+      "file": "page-24.html",
+      "workbookNumber": 24,
+      "chapterId": "applications",
+      "title": "חרוט — מוצאים רדיוס או יוצר"
+    },
+    {
+      "file": "page-25.html",
+      "workbookNumber": 25,
+      "chapterId": "applications",
+      "title": "חרוט — יישום רב־שלבי"
+    },
+    {
+      "file": "page-26.html",
+      "workbookNumber": 26,
+      "chapterId": "applications",
+      "title": "חרוט — המרת מידות"
+    },
+    {
+      "file": "page-27.html",
+      "workbookNumber": 27,
+      "chapterId": "applications",
+      "title": "חרוט — המרה ונפח"
+    },
+    {
+      "file": "page-28.html",
+      "workbookNumber": 28,
+      "chapterId": "applications",
+      "title": "חרוט — בחיי היום־יום"
+    },
+    {
+      "file": "page-29.html",
+      "workbookNumber": 29,
+      "chapterId": "applications",
+      "title": "איפה מסתתר החרוט?"
+    },
+    {
+      "file": "page-30.html",
+      "workbookNumber": 30,
+      "chapterId": "synthesis",
+      "title": "חרוט — מתכוננים למשימה רב־שלבית"
+    },
+    {
+      "file": "page-31.html",
+      "workbookNumber": 31,
+      "chapterId": "synthesis",
+      "title": "חרוט — גביע ה״מיני־מקס״"
+    },
+    {
+      "file": "page-32.html",
+      "workbookNumber": 32,
+      "chapterId": "synthesis",
+      "title": "חרוט — פיתגורס ושטח חתך"
+    },
+    {
+      "file": "page-33.html",
+      "workbookNumber": 33,
+      "chapterId": "synthesis",
+      "title": "חרוט — משימות מסכמות"
+    },
+    {
+      "file": "page-34.html",
+      "workbookNumber": 34,
+      "chapterId": "synthesis",
+      "title": "חרוט — מתכננים לפי נתונים"
+    },
+    {
+      "file": "page-35.html",
+      "workbookNumber": 35,
+      "chapterId": "synthesis",
+      "title": "חרוט — עובדים לאחור מנפח"
+    },
+    {
+      "file": "page-36.html",
+      "workbookNumber": 36,
+      "chapterId": "synthesis",
+      "title": "חרוט וגליל — משווים נפחים"
+    },
+    {
+      "file": "page-37.html",
+      "workbookNumber": 37,
+      "chapterId": "synthesis",
+      "title": "חרוט — משווים פתרונות"
+    },
+    {
+      "file": "page-38.html",
+      "workbookNumber": 38,
+      "chapterId": "synthesis",
+      "title": "חרוט — פריסה במספרים"
+    },
+    {
+      "file": "page-39.html",
+      "workbookNumber": 39,
+      "chapterId": "synthesis",
+      "title": "חרוט — פריסה, יוצר וזווית"
+    },
+    {
+      "file": "page-40.html",
+      "workbookNumber": 40,
+      "chapterId": "synthesis",
+      "title": "חרוט — האם הנתונים אפשריים?"
+    },
+    {
+      "file": "page-41.html",
+      "workbookNumber": 41,
+      "chapterId": "synthesis",
+      "title": "חרוט — חוקרים ומתכננים"
+    },
+    {
+      "file": "page-42.html",
+      "workbookNumber": 42,
+      "chapterId": "synthesis",
+      "title": "חרוט — משימה מסכמת חדשה"
+    },
+    {
+      "file": "page-43.html",
+      "workbookNumber": 43,
+      "chapterId": "synthesis",
+      "title": "חרוט — הערכה אינטגרטיבית"
+    },
+    {
+      "file": "page-44.html",
+      "workbookNumber": 44,
+      "chapterId": "reference",
+      "title": "יסודות לחרוט — מחסן מילים והגדרות"
+    },
+    {
+      "file": "page-45.html",
+      "workbookNumber": 45,
+      "chapterId": "reference",
+      "title": "תשובה — 15 חרוטים"
+    },
+    {
+      "file": "page-46.html",
+      "workbookNumber": 46,
+      "chapterId": "reference",
+      "title": "תשובה — החרוט היחיד"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "recognition",
+      "title": "זיהוי החרוט והמחשה",
+      "startPage": 1,
+      "endPage": 7,
+      "color": "#2563eb",
+      "tint": "#eff6ff"
+    },
+    {
+      "id": "nets",
+      "title": "פריסות וחתכים",
+      "startPage": 8,
+      "endPage": 11,
+      "color": "#0f766e",
+      "tint": "#ecfdf5"
+    },
+    {
+      "id": "volume",
+      "title": "נפח החרוט",
+      "startPage": 12,
+      "endPage": 17,
+      "color": "#7c3aed",
+      "tint": "#f5f3ff"
+    },
+    {
+      "id": "axial",
+      "title": "חתך צירי ופיתגורס",
+      "startPage": 18,
+      "endPage": 22,
+      "color": "#c2410c",
+      "tint": "#fff7ed"
+    },
+    {
+      "id": "applications",
+      "title": "יישומים והמרת מידות",
+      "startPage": 23,
+      "endPage": 29,
+      "color": "#15803d",
+      "tint": "#f0fdf4"
+    },
+    {
+      "id": "synthesis",
+      "title": "משימות מסכמות והערכה",
+      "startPage": 30,
+      "endPage": 43,
+      "color": "#be123c",
+      "tint": "#fff1f2"
+    },
+    {
+      "id": "reference",
+      "title": "מחסן מילים ותשובות",
+      "startPage": 44,
+      "endPage": 46,
+      "color": "#a16207",
+      "tint": "#fefce8"
+    }
+  ],
+  "pdf": {
+    "file": "harut.pdf",
+    "pageCount": 46,
+    "sha256": "89eb8a5a1d4e34c350a047e2b2faf4033652cce18f3af73d5955c3cb32989599",
+    "coverPages": 0
+  },
+  "contentHash": "81b4f0c7118db2e17922c78733a93e6800f3609f98158e72f0c2345580861329",
+  "builtAt": "2026-11-08T21:43:29.119Z",
+  "version": "1.0.0"
+}

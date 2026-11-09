@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Deterministic staleness gate for harut.pdf. Derived — regenerate with node scripts/build-pdf.mjs.",
+  "builtAt": "2026-11-08T21:43:29.119Z",
+  "pageCount": 46,
+  "inputs": {
+    "index.html": "38d55ed43747043217d58e8ddab7e2c924df36439e7e720a953345510be36b93",
+    "styles.css": "31c2daac16325beee154cf37de56511492f2c38469d72877cbaab277db1a0986",
+    "styles/reader-fonts.css": "c8d5ee5f22b7fc1e9330c9d67e5a3baf611a814a44083f53b481b36794c9a57c",
+    "assets/fonts/heebo-hebrew.woff2": "50dae2e12dae22c920388023e35aaebcd1e1d27bbe915c83d64210377e083e60",
+    "assets/fonts/heebo-latin.woff2": "f1f7cfaef59431c7b391df81fb05520273303840bbe917213a2ab9f41b839675",
+    "assets/fonts/rubik-hebrew.woff2": "197b6dbe5c6bec7276c59b02d70a16ee6acd44322fc2f8d0226c07f8d57976c2",
+    "assets/fonts/rubik-latin.woff2": "691cd1d9b4c0cdf31a1dcf04259c86f92c85e69f6622abab7964d81e36890691",
+    "visual-assets/anis-basics.jpg": "deec7e4f13ed44f1b643f519d122b8df36b613161eadf784ce6445c52f7f9bd9",
+    "visual-assets/anis-basics.svg": "e6cd96d5fce42843825b167c5e05c3469b0b3457e9aa8f46ce905254db987b8e",
+    "visual-assets/cone-3d-down.svg": "6832fe4fee1ea4ef9aa70ef9e613d0504762b2efb9b9e6fd464e6d356d9a69e9",
+    "visual-assets/cone-3d-side.svg": "7297ce9eaacb8000563d95b73f3aaa852d769fbf2b41ff1deb05d8afd5c0d240",
+    "visual-assets/cone-3d-upright.svg": "45b0373695f1330db78237ebf31e712fecc31691591a9858e8b7890275a95f8c",
+    "visual-assets/cone-in-my-head.jpg": "9f7435a690715ffb2ae551da99678cb6d3e5b60f70f4783e67efcba472942498",
+    "visual-assets/cone-in-my-head.svg": "5efb5bb493e725827424225624277dccf9bf9cf16ef6e9aedb9e9e4a57f1e6d1",
+    "visual-assets/cone-urban-pavilion.jpg": "2beb52ff509aae43b09adbcd70a0ff2912e8aca8173f57af2ed03120e8643cd9",
+    "visual-assets/count-scene.svg": "c295a994d69cec217fc1e9969b0466a62958baca49baa8d7050674c7e8521755",
+    "visual-assets/find-scene.svg": "ee8df3b093ad7f2275c9403a3e5a44293bbf328a103e38de523ad0b729fcbf2a",
+    "visual-assets/jerusalem-cone-vision.jpg": "536d9ff6fbc9f492d66a4be8eaf8f0b191e32bc69df14f2d49fea0afa9f9f955",
+    "visual-assets/jerusalem-cone-vision.svg": "c93bd36579c2d88f451ea8b8d164b5575a52dee53f31418b97ca40d0a5e88514",
+    "visual-assets/world-of-cones.jpg": "a13095552429728ecf553905c9e934bb5a8aa336720b051e0d54dd2ed2ac3459",
+    "visual-assets/world-of-cones.svg": "cfeb15fd43d908587b9be1d194724d1b4243fc506112c91f4c5b3d8c9ba7c277"
+  },
+  "sourceDigest": "81b4f0c7118db2e17922c78733a93e6800f3609f98158e72f0c2345580861329",
+  "pdfSha256": "89eb8a5a1d4e34c350a047e2b2faf4033652cce18f3af73d5955c3cb32989599"
+}
